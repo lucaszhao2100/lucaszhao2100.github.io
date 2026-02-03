@@ -1,14 +1,10 @@
 ---
-title: "Paper Title Number 1"
+title: "Alteration mineral information extraction based on image super-resolution technology"
 collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+category: journal-articles
+permalink: https://www.sciencedirect.com/science/article/pii/S1569843225005199
+excerpt: 'High-resolution remote sensing imagery is crucial for advancing earth science research. However, the scarcity of high-resolution data in specific non-visible spectral bands, such as short-wave infrared (SWIR) or thermal infrared (TIR), is challenge for various downstream tasks. To address this limitation, this study introduces a novel cross-band super-resolution (CBSR) method. This method improves the spatial resolution of targeted bands, specifically SWIR, within remote sensing images, and the methodology was tested with multi-band data from advanced spaceborne thermal emission and reflection radiometer (ASTER). The approach involves training a neural network on high-resolution visible and near-infrared single-band data, then the trained model is applied to generate high-resolution SWIR imagery. Validation was conducted over the Duolong Cu–Au porphyry district using ASTER imagery, focusing on mapping hydrothermal alteration. Through Bayesian optimization, the model achieved optimal performance with a peak signal-to-noise ratio of 43.17 dB, which is better than traditional methods. CBSR-reconstructed SWIR imagery, fused with principal component analysis, accurately delineated argillic alteration halos and ring structures. Furthermore, zero-shot transfer of the ASTER-trained model to Sentinel-2 imagery demonstrated the framework’s generalizability across sensor configurations. The proposed CBSR approach thus provides a robust, spectrally consistent mechanism for enhancing multi-resolution satellite data, with direct implications for mineral exploration, lithological mapping, and other domains reliant on high-fidelity SWIR information.'
+date: 2025-09-30
+venue: 'International Journal of Applied Earth Observation and Geoinformation'
 ---
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
