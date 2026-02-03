@@ -41,3 +41,13 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* 强制修复头像比例：无论原图如何，都锁定为 1:1 的正圆 */
+.author__avatar img {
+  width: 160px !important;       /* 宽度 */
+  height: 160px !important;      /* 高度必须和宽度一致 */
+  object-fit: cover !important;  /* 核心：防止图片被拉伸，自动裁剪中心区域 */
+  border-radius: 50% !important; /* 强制变圆 */
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
