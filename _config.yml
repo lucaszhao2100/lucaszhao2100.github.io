@@ -24,7 +24,7 @@ repository               : "Lucas-zhao2100/Lucas-zhao2100.github.io"
 author:
   # Biographic information
   avatar           : "image1.jpg"
-  name             : "Chunyu Zhao"
+  name             : "赵春宇 Chunyu Zhao"
   pronouns         : # Mr 
   bio              : "Master's student in Remote sensing"
   location         : "Beijing, China"
@@ -39,7 +39,7 @@ author:
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/my-orcid?orcid=0009-0002-4207-8538"
-  semantic         : "https://www.semanticscholar.org/author/Chunyu-Zhao/2383852708"
+  semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Chunyu-Zhao-15"
