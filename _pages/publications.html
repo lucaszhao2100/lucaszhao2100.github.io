@@ -8,19 +8,24 @@ author_profile: true
 {% include base_path %}
 
 
+{% assign my_name = "Chunyu Zhao" %}
+
 {% assign pubs_by_year = site.publications | group_by: "year" | sort: "name" | reverse %}
 
 {% for year in pubs_by_year %}
 <h2>{{ year.name }}</h2>
 
-{% assign journal_pubs = year.items | where: "type", "journal" %}
-{% assign conference_pubs = year.items | where: "type", "conference" %}
+{% assign journal_pubs = year.items | where: "type", "journal" | sort: "date" %}
+{% assign conference_pubs = year.items | where: "type", "conference" | sort: "date" %}
 
 {% if journal_pubs.size > 0 %}
 <h3>Journal Articles</h3>
 <ul>
+{% assign counter = 0 %}
 {% for post in journal_pubs %}
-  <li>{{ post.citation }}{% if post.paperurl %} <a href="{{ post.paperurl }}">[Link]</a>{% endif %}</li>
+  {% assign counter = counter | plus: 1 %}
+  {% assign citation_with_bold = post.citation | replace: my_name, "**" | append: my_name | append: "**" %}
+  <li>{{ counter }}. {{ citation_with_bold | markdownify }}{% if post.paperurl %} <a href="{{ post.paperurl }}">[Link]</a>{% endif %}</li>
 {% endfor %}
 </ul>
 {% endif %}
@@ -28,8 +33,11 @@ author_profile: true
 {% if conference_pubs.size > 0 %}
 <h3>Conference Papers</h3>
 <ul>
+{% assign counter = 0 %}
 {% for post in conference_pubs %}
-  <li>{{ post.citation }}{% if post.paperurl %} <a href="{{ post.paperurl }}">[Link]</a>{% endif %}</li>
+  {% assign counter = counter | plus: 1 %}
+  {% assign citation_with_bold = post.citation | replace: my_name, "**" | append: my_name | append: "**" %}
+  <li>{{ counter }}. {{ citation_with_bold | markdownify }}{% if post.paperurl %} <a href="{{ post.paperurl }}">[Link]</a>{% endif %}</li>
 {% endfor %}
 </ul>
 {% endif %}
