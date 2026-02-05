@@ -13,56 +13,42 @@ author_profile: true
 {% endif %}
 
 {% assign pubs = site.publications | sort: "year" | reverse %}
-{% assign current_year = "" %}
+{% assign years = pubs | map: "year" | uniq %}
 
-{% for pub in pubs %}
-  {% if pub.year != current_year %}
-    {% if current_year != "" %}
-      </ul>
-      </div>
-    {% endif %}
+{% for year in years %}
+  <h2>{{ year }}</h2>
+  <hr />
 
-    <h2>{{ pub.year }}</h2>
-    <hr />
+  {% assign year_pubs = pubs | where: "year", year %}
 
-    <div class="pub-year-block">
-      <h3>Journal Articles</h3>
-      <ul>
-    {% assign current_year = pub.year %}
-    {% assign journal_open = true %}
+  {% assign journals = year_pubs | where: "type", "journal" %}
+  {% if journals.size > 0 %}
+    <h3>Journal Articles</h3>
+    <ul>
+      {% for pub in journals %}
+        <li>
+          {{ pub.authors }} ({{ pub.year }}).
+          <em>{{ pub.title }}</em>.
+          {{ pub.venue }}{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}.
+          <a href="{{ pub.paperurl }}" target="_blank">[Link]</a>
+        </li>
+      {% endfor %}
+    </ul>
   {% endif %}
 
-  {% if pub.type == "journal" %}
-    <li>
-      {{ pub.authors }} ({{ pub.year }}).
-      <em>{{ pub.title }}</em>.
-      {{ pub.venue }}{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}.
-      <a href="{{ pub.paperurl }}" target="_blank">[Link]</a>
-    </li>
-  {% endif %}
-{% endfor %}
-</ul>
-
-{% assign current_year = "" %}
-
-{% for pub in pubs %}
-  {% if pub.year != current_year %}
-    {% if current_year != "" %}
-      </ul>
-    {% endif %}
-
+  {% assign conferences = year_pubs | where: "type", "conference" %}
+  {% if conferences.size > 0 %}
     <h3>Conference Papers</h3>
     <ul>
-    {% assign current_year = pub.year %}
+      {% for pub in conferences %}
+        <li>
+          {{ pub.authors }} ({{ pub.year }}).
+          <em>{{ pub.title }}</em>.
+          {{ pub.venue }}.
+          <a href="{{ pub.paperurl }}" target="_blank">[Link]</a>
+        </li>
+      {% endfor %}
+    </ul>
   {% endif %}
 
-  {% if pub.type == "conference" %}
-    <li>
-      {{ pub.authors }} ({{ pub.year }}).
-      <em>{{ pub.title }}</em>.
-      {{ pub.venue }}.
-      <a href="{{ pub.paperurl }}" target="_blank">[Link]</a>
-    </li>
-  {% endif %}
 {% endfor %}
-</ul>
