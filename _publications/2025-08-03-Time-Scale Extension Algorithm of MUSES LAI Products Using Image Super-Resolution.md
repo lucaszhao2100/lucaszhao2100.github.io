@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 paperurl: https://ieeexplore.ieee.org/document/11242615
 excerpt: 'This study demonstrated the TEA can successfully extend the time span of the 1km MUSES LAI product back to 1981, and when compared to the bicubic interpolation, the TEA achieved superior performance.'
+show_post_navigation: false
 date: 2025-08-03
 venue: 'IGARSS 2025 - 2025 IEEE International Geoscience and Remote Sensing Symposium'
 citation: 'Zhao, Chunyu, Zhiqiang Xiao, Jinling Song, Hua Yang and Yunteng Zhang. “Time-Scale Extension Algorithm of MUSES LAI Products Using Image Super-Resolution.” IGARSS 2025 - 2025 IEEE International Geoscience and Remote Sensing Symposium (2025): 6856-6860.'
