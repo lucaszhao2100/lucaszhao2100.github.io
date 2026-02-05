@@ -12,45 +12,42 @@ author_profile: true
 {% include base_path %}
 
 {% comment %} 
-  1. 获取所有文献并按日期倒序排列
+  1. 准备数据：按日期从新到旧排列
 {% endcomment %}
 {% assign all_pubs = site.publications | sort: 'date' | reverse %}
 
 {% comment %} 
-  2. 按年份分组
+  2. 期刊部分：全局统计并倒序编号
 {% endcomment %}
-{% assign pubs_by_year = all_pubs | group_by_exp: "item", "item.date | date: '%Y'" %}
-
-{% for year_group in pubs_by_year %}
-  <h2 id="{{ year_group.name }}">{{ year_group.name }}</h2>
+{% assign journals = all_pubs | where: "type", "journal" %}
+{% if journals.size > 0 %}
+  <h2 class="archive__subtitle">Journal articles</h2>
   <hr />
-
-  {% comment %} 3. Journal Articles: 使用 <ol> 自动从 1 开始编号 {% endcomment %}
-  {% assign year_journals = year_group.items | where: "type", "journal" %}
-  {% if year_journals.size > 0 %}
-    <p><strong>Journal articles</strong></p>
-    <ol style="margin-left: 2em;">
-    {% for post in year_journals %}
+  <ol reversed start="{{ journals.size }}" style="margin-left: 2em;">
+    {% for post in journals %}
       <li style="margin-bottom: 10px;">
         {{ post.citation }} 
         {% if post.paperurl %}<a href="{{ post.paperurl }}">[Link]</a>{% endif %}
       </li>
     {% endfor %}
-    </ol>
-  {% endif %}
+  </ol>
+{% endif %}
 
-  {% comment %} 4. Conference Papers: 重新开启一个 <ol>，会自动从 1 开始 {% endcomment %}
-  {% assign year_confs = year_group.items | where: "type", "conference" %}
-  {% if year_confs.size > 0 %}
-    <p><strong>Conference papers</strong></p>
-    <ol style="margin-left: 2em;">
-    {% for post in year_confs %}
+<br />
+
+{% comment %} 
+  3. 会议部分：重新独立统计并倒序编号
+{% endcomment %}
+{% assign conferences = all_pubs | where: "type", "conference" %}
+{% if conferences.size > 0 %}
+  <h2 class="archive__subtitle">Conference papers</h2>
+  <hr />
+  <ol reversed start="{{ conferences.size }}" style="margin-left: 2em;">
+    {% for post in conferences %}
       <li style="margin-bottom: 10px;">
         {{ post.citation }} 
         {% if post.paperurl %}<a href="{{ post.paperurl }}">[Link]</a>{% endif %}
       </li>
     {% endfor %}
-    </ol>
-  {% endif %}
-
-{% endfor %}
+  </ol>
+{% endif %}
