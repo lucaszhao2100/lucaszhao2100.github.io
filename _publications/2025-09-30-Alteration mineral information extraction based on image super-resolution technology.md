@@ -2,8 +2,9 @@
 title: "Alteration mineral information extraction based on image super-resolution technology"
 collection: publications
 category: manuscripts
-permalink: https://www.sciencedirect.com/science/article/pii/S1569843225005199
+paperurl: https://www.sciencedirect.com/science/article/pii/S1569843225005199
 excerpt: This study proposes a cross-band super-resolution (CBSR) method that enhances the spatial resolution of SWIR imagery by training on high-resolution VINR/NIR data and successfully validates its effectiveness for hydrothermal alteration mapping and cross-sensor generalizability.
+show_post_navigation: false
 date: 2025-09-30
 venue: 'International Journal of Applied Earth Observation and Geoinformation'
 citation: 'Zhao, Chunyu, Zhiqiang Xiao, Yan Zhang, Changjiang Yuan and Jie Yang. “Alteration mineral information extraction based on image super-resolution technology.” Int. J. Appl. Earth Obs. Geoinformation 144 (2025): 104872.'
