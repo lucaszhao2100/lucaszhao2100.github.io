@@ -8,5 +8,15 @@ date: 2025-11-24
 venue: 'Remote Sensing'
 citation: 'Wang, Anqi, Zhiqiang Xiao, Chunyu Zhao, Juan Li, Yunteng Zhang, Jinling Song and Hua Yang. “An Enhanced CycleGAN to Derive Temporally Continuous NDVI from Sentinel-1 SAR Images.” Remote Sensing (2025): n. pag.'
 ---
+<style>
+/* Force justify alignment for this publication only */
+.page__content {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
+.page__content p {
+  line-height: 1.6;
+}
+</style>
 Frequent cloud cover severely limits the use of optical remote sensing for continuous ecological monitoring. Synthetic aperture radar (SAR) offers an all-weather alternative, but translating SAR data to optical equivalents is challenging, particularly in cloudy regions where paired training data are scarce. To address this, we developed an enhanced CycleGAN (denoted by SA-CycleGAN) to derive a high-fidelity, temporally continuous normalized difference vegetation index (NDVI) from SAR imagery. The SA-CycleGAN introduces a novel spatiotemporal attention generator that dynamically computes global and local feature relationships to capture long-range spatial dependencies across diverse landscapes. Furthermore, a structural similarity (SSIM) loss function is integrated into the SA-CycleGAN to preserve the structural and textural integrity of the synthesized images. The performance of the SA-CycleGAN and three unsupervised models (DualGAN, GP-UNIT, and DCLGAN) was evaluated by deriving NDVI time series from Sentinel-1 SAR images across four sites with different vegetation types. Ablation experiments were conducted to verify the contributions of the key components in the SA-CycleGAN model. The results demonstrate that the SA-CycleGAN significantly outperformed the comparison models across all four sites. Quantitatively, the proposed method achieved the lowest Root Mean Square Error (RMSE) of 0.0502 and the highest Coefficient of Determination (R2) of 0.88 at the Zhangbei and Xishuangbanna sites, respectively. The ablation experiments confirmed that the attention mechanism and SSIM loss function were crucial for capturing long-range features and maintaining spatial structure. The SA-CycleGAN proves to be a robust and effective solution for overcoming data gaps in optical time series.
