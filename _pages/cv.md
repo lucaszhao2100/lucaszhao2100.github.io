@@ -22,7 +22,7 @@ redirect_from:
 * 2019-2022 Award for Grade Academic Scholarship, China University of Geosciences (Beijing)
   
 📚 **Publications**
-
+======
 {% assign all_pubs = site.publications | sort: 'date' | reverse %}
 
 ### Journal Articles
