@@ -155,10 +155,9 @@ social:
 
 # Analytics
 analytics:
-  provider: "google-gtag" # 注意：GA4 必须使用 google-gtag
+  provider: "google-gtag"
   google:
-    tracking_id: "G-L9XKP06DYV" # 替换为你刚才获取的 G- 开头的 ID
-    anonymize_ip: true 
+    tracking_id: "G-L9XKP06DYV"
 
 # Reading Files
 include:
