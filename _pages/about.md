@@ -48,4 +48,4 @@ Before joining BNU, I obtained my B.E. in Resources Prospecting Engineering (Sol
 * 📢**[Aug. 2025]** Presented **Time-Scale Extension Algorithm of MUSES LAI Products Using Image Super-Resolution** at **IGARSS 2025**, Brisbane, Australia.  
   [[See Talk](/talks/2025-igarss-muses-lai)]
 
-* 📢**[Apr. 2025] Honored to receive the IEEE GRSS Travel Support (1,550 USD) to attend IGARSS 2025 in Brisbane, Australia! Looking forward to presenting my research and connecting with the remote sensing community.
+* 📢**[Apr. 2025]** Honored to receive the **IEEE GRSS Travel Support (1,550 USD)** to attend IGARSS 2025 in Brisbane, Australia! Looking forward to presenting my research and connecting with the remote sensing community.
