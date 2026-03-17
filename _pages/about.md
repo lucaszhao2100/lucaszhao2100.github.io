@@ -39,11 +39,14 @@ Before joining BNU, I obtained my B.E. in Resources Prospecting Engineering (Sol
 
 🔥 News
 =====
-* 📝**[Nov 2025]** Our new paper **An Enhanced CycleGAN to Derive Temporally Continuous NDVI from Sentinel-1 SAR Images** has been published in *Remote Sensing*.  
+* 📝**[Nov. 2025]** Our new paper **An Enhanced CycleGAN to Derive Temporally Continuous NDVI from Sentinel-1 SAR Images** has been published in *Remote Sensing*.  
   [[See Publication](https://www.mdpi.com/2072-4292/18/1/56)]
 
-* 📝**[Sept 2025]** My first paper **Alteration Mineral Information Extraction Based on Image Super-Resolution Technology** has been published in *International Journal of Applied Earth Observation and Geoinformation*.  
+* 📝**[Sept. 2025]** My first paper **Alteration Mineral Information Extraction Based on Image Super-Resolution Technology** has been published in *International Journal of Applied Earth Observation and Geoinformation*.  
   [[See Publication](https://www.sciencedirect.com/science/article/pii/S1569843225005199)]
 
-* 📢**[Aug 2025]** Presented **Time-Scale Extension Algorithm of MUSES LAI Products Using Image Super-Resolution** at **IGARSS 2025**, Brisbane, Australia.  
+* 📢**[Aug. 2025]** Presented **Time-Scale Extension Algorithm of MUSES LAI Products Using Image Super-Resolution** at **IGARSS 2025**, Brisbane, Australia.  
+  [[See Talk](/talks/2025-igarss-muses-lai)]
+
+* 📢**[Apr. 2025]** Presented **Time-Scale Extension Algorithm of MUSES LAI Products Using Image Super-Resolution** at **IGARSS 2025**, Brisbane, Australia.  
   [[See Talk](/talks/2025-igarss-muses-lai)]
