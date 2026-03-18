@@ -23,3 +23,51 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+
+<style>
+  /* 默认浅色变量 (Minimal Mistakes) */
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+  }
+
+  /* 深色模式变量 */
+  [data-theme='dark'] {
+    --bg-color: #1a1a1a;
+    --text-color: #eeeeee;
+  }
+
+  /* 强制应用背景和文字颜色 */
+  [data-theme='dark'] body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  /* 针对侧边栏和页脚的暗化处理 */
+  [data-theme='dark'] .sidebar, 
+  [data-theme='dark'] .masthead, 
+  [data-theme='dark'] .page__footer {
+    background-color: #2d2d2d !important;
+  }
+</style>
+
+<script>
+  (function() {
+    // 获取当前北京时间的小时
+    const now = new Date();
+    const hour = now.getHours();
+
+    // 默认规则：18点后到次日6点为黑夜
+    const isNight = hour >= 18 || hour < 6;
+    const autoTheme = isNight ? 'dark' : 'light';
+
+    // 检查用户是否手动修改过主题 (存在 localStorage)
+    const savedTheme = localStorage.getItem('user-theme');
+
+    // 优先级：手动修改 > 自动逻辑
+    const themeToApply = savedTheme || autoTheme;
+
+    // 立即应用主题属性到 html 标签
+    document.documentElement.setAttribute('data-theme', themeToApply);
+  })();
+</script>
