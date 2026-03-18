@@ -31,17 +31,11 @@ author:
   employer         : "Faculty of Geographical Science,<br>Beijing Normal University"
   uri              : # URL
   email            : 
-  links: 
-    - label: "chunyuz.zhao@gmail.com"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:chunyuz.zhao@gmail.com"
-    - label: "zhaochunyu@mail.bnu.edu.cn"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:zhaochunyu@mail.bnu.edu.cn"
+
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.co.uk/citations?user=WczTXKEAAAAJ&hl=zh-CN"
+  googlescholar    : "https://scholar.google.co.uk/citations?user=WczTXKEAAAAJ&hl=EN"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/my-orcid?orcid=0009-0002-4207-8538"
