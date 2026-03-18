@@ -30,7 +30,7 @@ author:
   location         : "Beijing, China"
   employer         : "Faculty of Geographical Science,<br>Beijing Normal University"
   uri              : # URL
-  email            : "chunyuz.zhao@gmail.com<br>lucaszhao2100@163.com" 
+  email            : 
 
   # Academic websites
   academia         : # URL
@@ -146,11 +146,17 @@ facebook:
 og_image                 :  # Social media default site image
 og_description           :  # Social media default site image description
 # For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+# - https://developers.google.com/structured-data/customize/social-profiless
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                    : # Person or Organization (defaults to Person)
+  name                    : # If the user or organization name differs from the site's name
+  links: 
+    - label: "chunyuz.zhao@gmail.com"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:chunyuz.zhao@gmail.com"
+    - label: "zhaochunyu@mail.bnu.edu.cn"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:zhaochunyu@mail.bnu.edu.cn"
 
 
 # Analytics
