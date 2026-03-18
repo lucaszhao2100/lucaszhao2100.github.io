@@ -21,57 +21,50 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
-
 <style>
-  /* 默认浅色模式变量 */
+  /* 基础变量 */
   :root {
     --bg-color: #ffffff;
     --text-color: #333333;
-    --border-color: #f2f2f2;
   }
 
-  /* 暗色模式变量：背景统一为 #1a1a1a */
+  /* 暗色模式精准打击：彻底消除灰色导航栏 */
   [data-theme='dark'] {
     --bg-color: #1a1a1a;
     --text-color: #eeeeee;
-    --border-color: #333333;
   }
 
-  /* 强制应用背景色到所有核心组件，消除灰色块 */
-  [data-theme='dark'] body,
-  [data-theme='dark'] .masthead,
-  [data-theme='dark'] .greedy-nav,
-  [data-theme='dark'] .greedy-nav ul,
-  [data-theme='dark'] .sidebar,
-  [data-theme='dark'] .page__footer {
+  /* 1. 强制应用背景和文字颜色 */
+  [data-theme='dark'] body {
     background-color: var(--bg-color) !important;
     color: var(--text-color) !important;
-    border: none !important; /* 消除分割线带来的视觉断层 */
   }
 
-  /* 链接颜色微调：确保在黑底上不刺眼 */
-  [data-theme='dark'] a {
+  /* 2. 覆盖导航栏所有可能的灰色层级 */
+  [data-theme='dark'] .masthead,
+  [data-theme='dark'] .masthead__inner-wrap,
+  [data-theme='dark'] .greedy-nav,
+  [data-theme='dark'] .greedy-nav ul,
+  [data-theme='dark'] .greedy-nav button {
+    background-color: var(--bg-color) !important; /* 强制统一为 #1a1a1a */
+    box-shadow: none !important; /* 去除阴影 */
+    border: none !important; /* 去除边框线 */
+  }
+
+  /* 3. 修正导航链接颜色（让蓝字在黑底上更明亮一点） */
+  [data-theme='dark'] .masthead__menu-item a {
     color: #82adff !important;
   }
+  
+  /* 4. 修改鼠标悬停时的效果 */
+  [data-theme='dark'] .masthead__menu-item a:hover {
+    color: #ffffff !important;
+    background-color: #333 !important;
+  }
+
+  /* 5. 处理页脚 */
+  [data-theme='dark'] .page__footer {
+    background-color: var(--bg-color) !important;
+    border-top: 1px solid #333 !important;
+  }
 </style>
-
-<script>
-  (function() {
-    const now = new Date();
-    const hour = now.getHours();
-
-    // 自动逻辑：北京时间 18:00 - 06:00 为暗色
-    const isNight = hour >= 18 || hour < 6;
-    const autoTheme = isNight ? 'dark' : 'light';
-
-    // 手动逻辑：检查本地存储
-    const savedTheme = localStorage.getItem('user-theme');
-
-    // 优先级：手动覆盖 > 自动逻辑
-    const themeToApply = savedTheme || autoTheme;
-
-    document.documentElement.setAttribute('data-theme', themeToApply);
-  })();
-</script>
