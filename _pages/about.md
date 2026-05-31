@@ -27,9 +27,9 @@ redirect_from:
 🧑‍🎓 About me
 =====
 **Hello, I am Chunyu Zhao.👋**  
-I am currently a Master's student at the [Beijing Normal University](https://www.bnu.edu.cn/) (BNU), China, under the supervision of [Prof. Zhiqiang Xiao](https://geot.bnu.edu.cn/Public/htm/news/5/172.html). I am a member of the [MUSES (MUltiscale Satellite remotE Sensing)](https://muses.bnu.edu.cn/) team. My research lies at the intersection of Remote Sensing, Computer Vision, and Earth Sciences.
+I am currently a Master's student at the Beijing Normal University (BNU), China, under the supervision of [Prof. Zhiqiang Xiao](https://geot.bnu.edu.cn/Public/htm/news/5/172.html). I am a member of the [MUSES (MUltiscale Satellite remotE Sensing)](https://muses.bnu.edu.cn/) team. My research lies at the intersection of Remote Sensing, Computer Vision, and Earth Sciences.
 
-Before joining BNU, I obtained my B.E. in Resources Prospecting Engineering (Solid Mineral Resources) in 2019 from the [China University of Geosciences (Beijing)](https://www.cugb.edu.cn/) (CUGB), China, where I graduated as an **Outstanding Graduate**. My undergraduate thesis was completed under the guidance of [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang).
+Before joining BNU, I obtained my B.E. in Resources Prospecting Engineering (Solid Mineral Resources) in 2019 from the China University of Geosciences (Beijing) (CUGB), China, where I graduated as an **Outstanding Graduate**. My undergraduate thesis was completed under the guidance of [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang).
 
 **My research interests include:**
 * The intersection of Remote Sensing and Computer Vision, with a focus on image restoration and data fusion
@@ -39,7 +39,7 @@ Before joining BNU, I obtained my B.E. in Resources Prospecting Engineering (Sol
 
 🔥 News
 =====
-* 📢**[Apr. 2026]** My master’s thesis **Temporal Scale Extension of LAI Products Derived from Satellite Observations Using Deep Neural Networks** has completed double-blind peer review (AA).
+* 📢📢**[May. 2026]**📢📢 My master’s thesis **Temporal Scale Extension of LAI Products Derived from Satellite Observations Using Deep Neural Networks** has completed double-blind peer review and successfully passed the final defense.
 
 * **[Nov. 2025]** Our new paper **An Enhanced CycleGAN to Derive Temporally Continuous NDVI from Sentinel-1 SAR Images** has been published in *Remote Sensing*.  
   [[See Publication](https://www.mdpi.com/2072-4292/18/1/56)]
