@@ -30,3 +30,17 @@ $(document).on('click', 'a[href]:not([href^="#"])', function(e) {
   window.open(this.href, '_blank', 'noopener noreferrer');
 });
 </script>
+
+<script>
+// 使用捕获阶段，确保在主题代码之前执行
+document.addEventListener('click', function(e) {
+  const link = e.target.closest('a[href]');
+  if (link && !link.getAttribute('href').startsWith('#')) {
+    // 完全阻止默认行为和事件传播
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    // 强制在新标签页打开
+    window.open(link.href, '_blank', 'noopener noreferrer');
+  }
+}, true); // 这里的true表示使用捕获阶段
+</script>
