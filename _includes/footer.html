@@ -24,8 +24,9 @@
   Site last updated {{ "now" | date: '%Y-%m-%d' }}
 </div>
 
-<!-- 访问量统计 - 放在 footer.html 最底部 -->
-<div style="text-align: center; margin-top: 20px; font-size: 12px; color: #666;">
-  <img src="https://api.visitorbadge.io/api/visitors?path=chunyuzhao.github.io.index&label=Homepage%20Visits&labelColor=%23f5f5f5&countColor=%232c3e50&style=flat" alt="Homepage Visits"></div>
-
-</footer>
+<script>
+$(document).on('click', 'a[href]:not([href^="#"])', function(e) {
+  e.preventDefault();
+  window.open(this.href, '_blank', 'noopener noreferrer');
+});
+</script>
