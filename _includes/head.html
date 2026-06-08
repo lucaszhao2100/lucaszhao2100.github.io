@@ -1,15 +1,3 @@
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('a[href]').forEach(link => {
-    // 排除锚点链接（#开头的，如回到顶部）
-    if (!link.getAttribute('href').startsWith('#')) {
-      link.setAttribute('target', '_blank');
-      link.setAttribute('rel', 'noopener noreferrer');
-    }
-  });
-});
-</script>
-
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-L9XKP06DYV"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
