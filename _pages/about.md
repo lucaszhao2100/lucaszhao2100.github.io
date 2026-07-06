@@ -39,7 +39,9 @@ Before joining BNU, I obtained my B.E. in Resources Prospecting Engineering (Sol
 
 🔥 News
 =====
-* 📢📢**[May. 2026]**📢📢 My master’s thesis **Temporal Scale Extension of LAI Products Derived from Satellite Observations Using Deep Neural Networks** has completed double-blind peer review and successfully passed the final defense.
+* 📢📢 **[Jul. 2026]** 📢📢 Honored to join the research group of [**Researcher Jing Cheng**](http://scholar.pku.edu.cn/jingcheng/home) at the College of Environmental Sciences and Engineering, Peking University. Looking forward to delving into environmental research and embarking on this new chapter of academic exploration.
+
+* **[May. 2026]** My master’s thesis **Temporal Scale Extension of LAI Products Derived from Satellite Observations Using Deep Neural Networks** has completed double-blind peer review and successfully passed the final defense.
 
 * **[Nov. 2025]** Our new paper **An Enhanced CycleGAN to Derive Temporally Continuous NDVI from Sentinel-1 SAR Images** has been published in *Remote Sensing*.  
   [[See Publication](https://www.mdpi.com/2072-4292/18/1/56)]
