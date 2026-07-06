@@ -23,7 +23,7 @@ redirect_from:
 * 2025 **IEEE GRSS Student Travel Grant**, IGARSS 2025 (Brisbane), 1,550 USD
 * 2025 & 2023 **Academic Excellence Scholarship**, Beijing Normal University (BNU)
 * 2023 **Outstanding Graduate**, China University of Geosciences, Beijing (CUGB)
-* 2019–2022 **Academic Excellence Scholarship (Multiple times)**, China University of Geosciences, Beijing (CUGB)
+* 2019 – 2022 **Academic Excellence Scholarship (Multiple times)**, China University of Geosciences, Beijing (CUGB)
   
 ---
 
