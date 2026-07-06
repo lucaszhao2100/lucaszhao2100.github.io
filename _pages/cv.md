@@ -14,8 +14,8 @@ redirect_from:
 ---
 
 ## 🎓 Educational Experience
-* **M.E. in Remote Sensing Science and Technology**, Beijing Normal University, China, 09.2023 – 06.2026
-* **B.E. in Resources Prospecting Engineering**, China University of Geosciences (Beijing), China, 09.2019 – 06.2023
+* **Master of Engineering in Remote Sensing Science and Technology**, Beijing Normal University, China, 09.2023 – 06.2026
+* **Bachelor of Engineering in Resources Prospecting Engineering**, China University of Geosciences (Beijing), China, 09.2019 – 06.2023
 
 ---
 
