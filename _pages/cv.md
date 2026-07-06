@@ -8,8 +8,12 @@ redirect_from:
 ---
 
 {% include base_path %}
+## 💼 Professional Experience
+* **Research Assistant**, College of Environmental Sciences and Engineering, Peking University, China, 07.2026 – Present
 
-## 🎓 Education
+---
+
+## 🎓 Educational Experience
 * **M.E. in Remote Sensing Science and Technology**, Beijing Normal University, China, 06.2026
 * **B.E. in Resources Prospecting Engineering**, China University of Geosciences (Beijing), China, 06.2023
 
