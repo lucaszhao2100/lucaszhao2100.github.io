@@ -27,11 +27,11 @@ redirect_from:
 🧑‍🎓 About me
 =====
 **Hello, I am Chunyu Zhao.👋**  
-I am currently a Research Assistant in the research group of [Researcher Jing Cheng](http://scholar.pku.edu.cn/jingcheng/home) at the College of Environmental Sciences and Engineering, Peking University
+I am currently a Research Assistant in the research group of [Researcher Jing Cheng](http://scholar.pku.edu.cn/jingcheng/home) at the College of Environmental Sciences and Engineering, Peking University. My research lies at the intersection of Remote Sensing, Computer Vision, and Earth Sciences.
 
-I received my Master of Engineering in Remote Sensing Science and Technology from Beijing Normal University (BNU), China in 2026. During my graduate studies, I worked under the supervision of [Prof. Zhiqiang Xiao](https://geot.bnu.edu.cn/Public/htm/news/5/172.html) as a member of the [MUSES (MUltiscale Satellite remotE Sensing)](https://muses.bnu.edu.cn/) team. My research lies at the intersection of Remote Sensing, Computer Vision, and Earth Sciences.
+I received my Master of Engineering in Remote Sensing Science and Technology from Beijing Normal University (BNU), China in 06.2026. During my graduate studies, I worked under the supervision of [Prof. Zhiqiang Xiao](https://geot.bnu.edu.cn/Public/htm/news/5/172.html) as a member of the [MUSES (MUltiscale Satellite remotE Sensing)](https://muses.bnu.edu.cn/) team. 
 
-Before joining BNU, I obtained my Bachelor of Engineering in Resources Prospecting Engineering (Solid Mineral Resources) in 2023 from the China University of Geosciences (Beijing) (CUGB), China, where I graduated as an Outstanding Graduate. My undergraduate thesis was completed under the guidance of [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang).
+Before joining BNU, I obtained my Bachelor of Engineering in Resources Prospecting Engineering (Solid Mineral Resources) in 06.2023 from the China University of Geosciences (Beijing) (CUGB), China, where I graduated as an Outstanding Graduate. My undergraduate thesis was completed under the guidance of [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang).
 
 **My research interests include:**
 * The intersection of Remote Sensing and Computer Vision, with a focus on image restoration and data fusion
