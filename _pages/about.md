@@ -27,11 +27,11 @@ redirect_from:
 🧑‍🎓 About me
 =====
 **Hello, I am Chunyu Zhao.👋**  
-I am currently a Research Assistant in the research group of [Researcher Jing Cheng](http://scholar.pku.edu.cn/jingcheng/home) at the College of Environmental Sciences and Engineering, Peking University. My research lies at the intersection of Remote Sensing, Computer Vision, and Earth Sciences.
+I am a Research Assistant in [Dr. Jing Cheng](http://scholar.pku.edu.cn/jingcheng/home)’s research group at the College of Environmental Sciences and Engineering, Peking University. My research lies at the intersection of remote sensing, computer vision, and Earth science.
 
-I received my Master of Engineering in Remote Sensing Science and Technology from Beijing Normal University (BNU), China in 06.2026. During my graduate studies, I worked under the supervision of [Prof. Zhiqiang Xiao](https://geot.bnu.edu.cn/Public/htm/news/5/172.html) as a member of the [MUSES (MUltiscale Satellite remotE Sensing)](https://muses.bnu.edu.cn/) team. 
+I received my M.Eng. in Remote Sensing Science and Technology from Beijing Normal University (BNU) in June 2026, where I worked under the supervision of [Prof. Zhiqiang Xiao](https://geot.bnu.edu.cn/Public/htm/news/5/172.html) as a member of the [MUSES](https://muses.bnu.edu.cn/) team. 
 
-Before joining BNU, I obtained my Bachelor of Engineering in Resources Prospecting Engineering (Solid Mineral Resources) in 06.2023 from the China University of Geosciences (Beijing) (CUGB), China, where I graduated as an Outstanding Graduate. My undergraduate thesis was completed under the guidance of [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang).
+Before joining BNU, I obtained my B.Eng. in Resources Prospecting Engineering, with a focus on solid mineral resources, from the China University of Geosciences (Beijing) (CUGB) in June 2023, where I was recognized as an Outstanding Graduate. My undergraduate thesis was supervised by [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang).
 
 **My research interests include:**
 * The intersection of Remote Sensing and Computer Vision, with a focus on image restoration and data fusion
