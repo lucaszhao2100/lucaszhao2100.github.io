@@ -27,7 +27,7 @@ redirect_from:
 🧑‍🎓 About me
 =====
 **Hello, I am Chunyu Zhao.👋**  
-I am currently a Research Assistant in the research group of Researcher Jing Cheng at the College of Environmental Sciences and Engineering, Peking University
+I am currently a Research Assistant in the research group of [Researcher Jing Cheng](http://scholar.pku.edu.cn/jingcheng/home) at the College of Environmental Sciences and Engineering, Peking University
 
 I received my Master of Engineering in Remote Sensing Science and Technology from Beijing Normal University (BNU), China in 2026. During my graduate studies, I worked under the supervision of [Prof. Zhiqiang Xiao](https://geot.bnu.edu.cn/Public/htm/news/5/172.html) as a member of the [MUSES (MUltiscale Satellite remotE Sensing)](https://muses.bnu.edu.cn/) team. My research lies at the intersection of Remote Sensing, Computer Vision, and Earth Sciences.
 
@@ -41,7 +41,7 @@ Before joining BNU, I obtained my Bachelor of Engineering in Resources Prospecti
 
 🔥 News
 =====
-* 📢📢 **[Jul. 2026]** 📢📢 Honored to join the research group of [**Researcher Jing Cheng**](http://scholar.pku.edu.cn/jingcheng/home) at the College of Environmental Sciences and Engineering, Peking University. Looking forward to delving into environmental research and embarking on this new chapter of academic exploration.
+* 📢📢 **[Jul. 2026]** 📢📢 Honored to join the research group of **Researcher Jing Cheng** at the College of Environmental Sciences and Engineering, Peking University. Looking forward to delving into environmental research and embarking on this new chapter of academic exploration.
 
 * **[May. 2026]** My master’s thesis **Temporal Scale Extension of LAI Products Derived from Satellite Observations Using Deep Neural Networks** has completed double-blind peer review and successfully passed the final defense.
 
