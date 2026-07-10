@@ -31,7 +31,7 @@ I am a Research Assistant in [Dr. Jing Cheng](http://scholar.pku.edu.cn/jingchen
 
 I received my M.Eng. in Remote Sensing Science and Technology from Beijing Normal University (BNU) in June 2026, where I worked under the supervision of [Prof. Zhiqiang Xiao](https://geot.bnu.edu.cn/Public/htm/news/5/172.html) as a member of the [MUSES](https://muses.bnu.edu.cn/) team. 
 
-Before joining BNU, I obtained my B.Eng. in Resources Prospecting Engineering, with a focus on solid mineral resources, from the China University of Geosciences (Beijing) (CUGB) in June 2023, where I was recognized as an Outstanding Graduate. My undergraduate thesis was supervised by [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang).
+Before joining BNU, I obtained my B.Eng. in Resources Prospecting Engineering, with a focus on solid mineral resources, from the China University of Geosciences (Beijing) (CUGB) in June 2023, where I was recognized as an Outstanding Graduate. My undergraduate thesis was supervised by [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang). 
 
 **My research interests include:**
 * The intersection of Remote Sensing and Computer Vision, with a focus on image restoration and data fusion
