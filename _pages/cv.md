@@ -10,18 +10,18 @@ redirect_from:
 {% include base_path %}
 ## 💼 Professional Experience
 
-| Position | Institution | Location | Period |
-|---|---|---|---|
-| Research Assistant | College of Environmental Sciences and Engineering, Peking University | China | Jul. 2026 – Present |
+| Period | Position | Institution |
+|:---|:---|:---|
+| Jul. 2026 – Present | **Research Assistant** | College of Environmental Sciences and Engineering, Peking University, China |
 
 ---
 
 ## 🎓 Education
 
-| Degree | Institution | Location | Period |
-|---|---|---|---|
-| M.Eng. in Remote Sensing Science and Technology | Beijing Normal University | China | Sep. 2023 – Jun. 2026 |
-| B.Eng. in Resources Prospecting Engineering | China University of Geosciences (Beijing) | China | Sep. 2019 – Jun. 2023 |
+| Period | Degree | Institution |
+|:---|:---|:---|
+| Sep. 2023 – Jun. 2026 | **M.Eng. in Remote Sensing Science and Technology** | Beijing Normal University, China |
+| Sep. 2019 – Jun. 2023 | **B.Eng. in Resources Prospecting Engineering** | China University of Geosciences (Beijing), China |
 
 ---
 
