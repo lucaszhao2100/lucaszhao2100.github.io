@@ -18,10 +18,10 @@ redirect_from:
 
 ## 🎓 Education
 
-| Period | Degree | Institution |
+| Period | Degree and Field of Study | Institution |
 |:---|:---|:---|
-| Sep. 2023 – Jun. 2026 | **M.Eng. in Remote Sensing Science and Technology** | Beijing Normal University, China |
-| Sep. 2019 – Jun. 2023 | **B.Eng. in Resources Prospecting Engineering** | China University of Geosciences (Beijing), China |
+| Sep. 2023 – Jun. 2026 | **Master of Engineering**<br>Remote Sensing Science and Technology | Beijing Normal University, China |
+| Sep. 2019 – Jun. 2023 | **Bachelor of Engineering**<br>Resources Prospecting Engineering | China University of Geosciences (Beijing), China |
 
 ---
 
