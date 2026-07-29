@@ -24,10 +24,6 @@ redirect_from:
   }
 </style>
 
-<img
-  src="/images/1.png"
-  alt="Australian landscape banner"
-  class="homepage-banner">
 
 🧑‍🎓 About me
 =====
