@@ -14,3 +14,17 @@
   text-justify: inter-word;
   line-height: 1.6;
 }
+
+.homepage-hero {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 2rem;
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.18),
+      rgba(255, 255, 255, 0.18)
+    ),
+    url("/images/1.png");
+  background-size: cover;
+  background-position: center;
+}
