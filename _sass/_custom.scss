@@ -32,26 +32,3 @@
 .page__footer {
   display: none;
 }
-/* Prevent sidebar text from overflowing */
-.sidebar {
-  min-width: 0;
-}
-
-.author__urls,
-.author__urls li,
-.author__urls a {
-  white-space: normal !important;
-  overflow-wrap: anywhere;
-  word-break: break-word;
-}
-
-/* Slightly wider profile column on desktop */
-@media screen and (min-width: 1024px) {
-  .sidebar {
-    width: 300px;
-  }
-
-  .page {
-    width: calc(100% - 320px);
-  }
-}
