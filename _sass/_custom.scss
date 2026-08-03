@@ -32,18 +32,3 @@
 .page__footer {
   display: none;
 }
-
-/* Homepage: reduce the gap below the hero banner */
-.homepage-hero {
-  margin-bottom: 0 !important;
-}
-
-/* Reduce top spacing of the main content */
-.homepage-hero + #main {
-  padding-top: 1.2rem !important;
-}
-
-/* Remove excessive top margin from the first heading */
-.homepage-hero + #main .page__content > h2:first-of-type {
-  margin-top: 0 !important;
-}
