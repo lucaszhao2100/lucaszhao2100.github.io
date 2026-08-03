@@ -73,10 +73,3 @@
 .page__footer {
   display: none;
 }
-/* ===== Align homepage content with profile ===== */
-
-@media screen and (min-width: 1024px) {
-  .homepage-hero + #main .page {
-    margin-top: 0rem !important;
-  }
-}
