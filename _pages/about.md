@@ -24,8 +24,6 @@ redirect_from:
   }
 </style>
 
-
-
 ## 🧑‍🎓 About Me
 
 **Hi, I’m Chunyu Zhao. 👋**  
