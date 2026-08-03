@@ -1,8 +1,8 @@
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f5405db6-6a19-445b-921d-9ded976f62e2" />---
+---
 layout: single
 permalink: /
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
