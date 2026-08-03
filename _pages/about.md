@@ -7,11 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<img
-  src="/images/1.png"
-  alt="Australian landscape banner"
-  class="homepage-banner">
-
 <style>
   /* 隐藏首页重复出现的 News 区块（academicpages 模板问题） */
   .page__content ~ h2,
