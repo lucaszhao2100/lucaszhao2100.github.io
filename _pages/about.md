@@ -24,8 +24,8 @@ redirect_from:
   }
 </style>
 
-## 🧑‍🎓 About Me
-
+🧑‍🎓 About Me
+=====
 **Hi, I’m Chunyu Zhao. 👋**  
 I am a Research Assistant in [Dr. Jing Cheng’s](http://scholar.pku.edu.cn/jingcheng/home) research group at the College of Environmental Sciences and Engineering, Peking University. My research lies at the intersection of remote sensing, computer vision, and Earth science.
 
@@ -33,24 +33,24 @@ I received my M.Eng. in Remote Sensing Science and Technology from Beijing Norma
 
 I obtained my B.Eng. in Resources Prospecting Engineering, with a specialization in solid mineral exploration, from the China University of Geosciences (Beijing) (CUGB) in June 2023. I graduated with the distinction of Outstanding Graduate and completed my undergraduate thesis under the supervision of [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang).
 
-## 🛰️ Research Interests
-
+🛰️ Research Interests
+=====
 * Remote sensing and computer vision, with a focus on image restoration, super-resolution, and multimodal data fusion
 * Spatiotemporal reconstruction of remote sensing time-series data, including biophysical variables and vegetation indices such as LAI and NDVI
 * Deep learning for geoscience and Earth observation applications, particularly alteration mineral mapping
 
 I am particularly interested in developing robust and generalizable learning-based methods for long-term and multimodal Earth observation.
 
-## 🌟 Research Highlights
-
+🌟 Research Highlights
+=====
 * **Cross-Spectral Super-Resolution** — Developed deep learning-based super-resolution methods for remote sensing image restoration and alteration mineral mapping, resulting in a first-author publication in *JAG*.
 
 * **Spatiotemporal Reconstruction of Vegetation Parameters** — Developed spatial downscaling and temporal extension approaches for long-term satellite-derived LAI products, with related work presented at *IGARSS 2025*.
 
 * **Long-Term Ecosystem Monitoring** — Applying multi-temporal satellite observations and deep learning to investigate long-term vegetation dynamics in wetland ecosystems, supported by field observations in Baiyangdian.
 
-## 🔥 News
-
+🔥 News
+=====
 * 📢📢 **[Jul 2026]** 📢📢 Joined the research group of **Dr. Jing Cheng** at the College of Environmental Sciences and Engineering, Peking University, as a Research Assistant.
 
 * **[May 2026]** Successfully passed the double-blind review and final defense of my master’s thesis, **Temporal Scale Extension of LAI Products Derived from Satellite Observations Using Deep Neural Networks**.
