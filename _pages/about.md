@@ -20,7 +20,7 @@ redirect_from:
   .page__content li {
     text-align: justify;
     text-justify: inter-word;
-    line-height: 1.6;
+    line-height: 1.4;
   }
 </style>
 
