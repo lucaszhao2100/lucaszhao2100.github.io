@@ -15,9 +15,13 @@
   line-height: 1.6;
 }
 
+
+/* ===== Homepage hero ===== */
+
 .homepage-hero {
   width: 100%;
   height: 180px;
+  margin-top: 0 !important;
   margin-bottom: 1rem;
   background:
     linear-gradient(
@@ -28,6 +32,43 @@
   background-size: cover;
   background-position: center;
 }
+
+
+/* ===== Homepage layout fixes ===== */
+
+/* 去掉顶部菜单栏和横幅之间的空隙 */
+.masthead {
+  margin-bottom: 0 !important;
+}
+
+.initial-content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* 横幅下面主体的正常间距 */
+.homepage-hero + #main {
+  padding-top: 1.5rem !important;
+}
+
+/* 让左侧头像区域和右侧 About Me 从同一高度开始 */
+.homepage-hero + #main .sidebar {
+  margin-top: 0 !important;
+  transform: none !important;
+}
+
+.homepage-hero + #main .author__avatar {
+  margin-top: 0 !important;
+  transform: none !important;
+}
+
+/* 去掉 About Me 标题上方额外空白 */
+.homepage-hero + #main .page__content > h2:first-of-type {
+  margin-top: 0 !important;
+}
+
+
+/* ===== Footer ===== */
 
 .page__footer {
   display: none;
