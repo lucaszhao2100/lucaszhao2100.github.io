@@ -1,4 +1,4 @@
----
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f5405db6-6a19-445b-921d-9ded976f62e2" />---
 layout: single
 permalink: /
 author_profile: true
@@ -24,35 +24,44 @@ redirect_from:
   }
 </style>
 
+## 🧑‍🎓 About Me
 
-🧑‍🎓 About me
-=====
 **Hi, I’m Chunyu Zhao. 👋**  
 I am a Research Assistant in [Dr. Jing Cheng’s](http://scholar.pku.edu.cn/jingcheng/home) research group at the College of Environmental Sciences and Engineering, Peking University. My research lies at the intersection of remote sensing, computer vision, and Earth science.
 
-I received my M.Eng. in Remote Sensing Science and Technology from Beijing Normal University (BNU) in June 2026. During my master’s studies, I was supervised by [Prof. Zhiqiang Xiao](https://geot.bnu.edu.cn/Public/htm/news/5/172.html) as a member of the [MUSES](https://muses.bnu.edu.cn/) team. 
+I received my M.Eng. in Remote Sensing Science and Technology from Beijing Normal University (BNU) in June 2026. During my master’s studies, I was supervised by [Prof. Zhiqiang Xiao](https://geot.bnu.edu.cn/Public/htm/news/5/172.html) and worked as a member of the [MUSES](https://muses.bnu.edu.cn/) team.
 
-I obtained my B.Eng. in Resources Prospecting Engineering, with a specialization in solid mineral exploration, from the China University of Geosciences (Beijing) (CUGB) in June 2023. I graduated with the distinction of Outstanding Graduate, and completed my undergraduate thesis under the supervision of [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang). 
+I obtained my B.Eng. in Resources Prospecting Engineering, with a specialization in solid mineral exploration, from the China University of Geosciences (Beijing) (CUGB) in June 2023. I graduated with the distinction of Outstanding Graduate and completed my undergraduate thesis under the supervision of [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang).
 
-**My research interests include:**
+## 🛰️ Research Interests
+
 * Remote sensing and computer vision, with a focus on image restoration, super-resolution, and multimodal data fusion
 * Spatiotemporal reconstruction of remote sensing time-series data, including biophysical variables and vegetation indices such as LAI and NDVI
 * Deep learning for geoscience and Earth observation applications, particularly alteration mineral mapping
 
+I am particularly interested in developing robust and generalizable learning-based methods for long-term and multimodal Earth observation.
 
-🔥 News
-=====
-* 📢📢 **[Jul. 2026]** 📢📢 Joined the research group of **Dr. Jing Cheng** at the College of Environmental Sciences and Engineering, Peking University, as a Research Assistant.
+## 🌟 Research Highlights
+
+* **Cross-Spectral Super-Resolution** — Developed deep learning-based super-resolution methods for remote sensing image restoration and alteration mineral mapping, resulting in a first-author publication in *JAG*.
+
+* **Spatiotemporal Reconstruction of Vegetation Parameters** — Developed spatial downscaling and temporal extension approaches for long-term satellite-derived LAI products, with related work presented at *IGARSS 2025*.
+
+* **Long-Term Ecosystem Monitoring** — Applying multi-temporal satellite observations and deep learning to investigate long-term vegetation dynamics in wetland ecosystems, supported by field observations in Baiyangdian.
+
+## 🔥 News
+
+* 📢📢 **[Jul 2026]** 📢📢 Joined the research group of **Dr. Jing Cheng** at the College of Environmental Sciences and Engineering, Peking University, as a Research Assistant.
 
 * **[May 2026]** Successfully passed the double-blind review and final defense of my master’s thesis, **Temporal Scale Extension of LAI Products Derived from Satellite Observations Using Deep Neural Networks**.
 
-* **[Nov. 2025]** Our paper, **An Enhanced CycleGAN to Derive Temporally Continuous NDVI from Sentinel-1 SAR Images**, was published in *Remote Sensing*. 
+* **[Nov 2025]** Our paper, **An Enhanced CycleGAN to Derive Temporally Continuous NDVI from Sentinel-1 SAR Images**, was published in *Remote Sensing*.  
   [[See Publication](https://www.mdpi.com/2072-4292/18/1/56)]
 
-* **[Sept. 2025]** My first paper as first author, **Alteration Mineral Information Extraction Based on Image Super-Resolution Technology** was published in *International Journal of Applied Earth Observation and Geoinformation*.  
+* **[Sep 2025]** My first paper as first author, **Alteration Mineral Information Extraction Based on Image Super-Resolution Technology**, was published in *International Journal of Applied Earth Observation and Geoinformation*.  
   [[See Publication](https://www.sciencedirect.com/science/article/pii/S1569843225005199)]
 
-* **[Aug. 2025]** Presented **Time-Scale Extension Algorithm of MUSES LAI Products Using Image Super-Resolution** at **IGARSS 2025**, Brisbane, Australia.  
+* **[Aug 2025]** Presented **Time-Scale Extension Algorithm of MUSES LAI Products Using Image Super-Resolution** at **IGARSS 2025** in Brisbane, Australia.  
   [[See Talk](/talks/2025-igarss-muses-lai)]
 
-* **[Apr. 2025]** Received **IEEE GRSS Travel Support (1,550 USD)** to attend **IGARSS 2025** in Brisbane, Australia.
+* **[Apr 2025]** Received **IEEE GRSS Travel Support of USD 1,550** to attend **IGARSS 2025** in Brisbane, Australia.
