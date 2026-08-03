@@ -18,7 +18,7 @@
 .homepage-hero {
   width: 100%;
   height: 180px;
-  margin-top: 2em;
+  margin-bottom: 2rem;
   background:
     linear-gradient(
       rgba(255, 255, 255, 0.18),
@@ -28,12 +28,7 @@
   background-size: cover;
   background-position: center;
 }
-/* 桌面端首页：让 About Me 与左侧姓名顶部对齐 */
-@media screen and (min-width: 1024px) {
-  .homepage-hero + #main .page__content > h2:first-of-type {
-    margin-top: 10px;
-  }
-}
+
 .page__footer {
   display: none;
 }
