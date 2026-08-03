@@ -1,4 +1,7 @@
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f5405db6-6a19-445b-921d-9ded976f62e2" />
+<img
+  src="/images/1.png"
+  alt="Australian landscape banner"
+  class="homepage-banner">
 ---
 layout: single
 permalink: /
