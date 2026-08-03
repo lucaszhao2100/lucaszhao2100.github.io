@@ -1,3 +1,4 @@
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f5405db6-6a19-445b-921d-9ded976f62e2" />
 ---
 layout: single
 permalink: /
@@ -23,6 +24,8 @@ redirect_from:
     line-height: 1.6;
   }
 </style>
+
+
 
 ## 🧑‍🎓 About Me
 
