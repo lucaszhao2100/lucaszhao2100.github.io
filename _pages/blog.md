@@ -5,12 +5,8 @@ permalink: /blog/
 author_profile: true
 ---
 
-Welcome to my blog.
+I share practical notes and tutorials on remote sensing, deep learning, Earth observation, and scientific computing.
 
-I share notes and tutorials on remote sensing, deep learning, and scientific computing.
+My current articles are published on CSDN. The link below opens the external site in a new tab.
 
-For more technical articles, please visit my CSDN blog:
-
-<a href="https://blog.csdn.net/weixin_56541083" target="_blank">
-CSDN Blog
-</a>
+<a class="btn btn--primary" href="https://blog.csdn.net/weixin_56541083" target="_blank" rel="noopener noreferrer">Visit my CSDN blog</a>

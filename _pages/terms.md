@@ -1,39 +1,22 @@
 ---
 permalink: /terms/
 title: "Terms and Privacy Policy"
-modified: 2016-06-06
+modified: 2026-09-15
 ---
 
 {% include base_path %}
 {% include toc %}
 
-## Privacy Policy
+## Privacy Notice
 
-The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+This is a public academic website. It does not provide user accounts, accept comments, display advertising, or use a first-party analytics service.
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+The site is hosted by GitHub Pages. As with most web hosting services, the hosting provider may process technical request information needed to deliver and protect the service, such as IP addresses, browser information, requested pages, and timestamps. Please refer to [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for details.
 
-### Log Files
+Links to publishers, academic profiles, and other external websites are provided for convenience. Those services operate under their own privacy policies. Following an external link may allow that service to receive standard web request information.
 
-Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
+If site analytics, comments, forms, or other data-collecting features are introduced in the future, this notice will be updated before those features are enabled.
 
-* Internet Protocol addresses (IP)
-* Types of browser
-* Internet Service Provider (ISP)
-* Date and time stamp
-* Referring and exit pages
-* Number of clicks
+## Contact
 
-All of this information is not linked to anything that is personally identifiable.
-
-### Cookies and Web Beacons
-
-When you visit this site "convenience" cookies are stored on your computer when you submit a comment to help you log in faster to [Disqus](https://disqus.com) the next time you leave a comment.
-
-Third-party advertisers may also place and read cookies on your browser and/or use web beacons to collect information. This site has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out.
-
-If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
-
-#### Google Analytics
-
-Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](https://www.google.com/analytics/learn/privacy.html).
+For questions about this website, contact [chunyuz.zhao@gmail.com](mailto:chunyuz.zhao@gmail.com).

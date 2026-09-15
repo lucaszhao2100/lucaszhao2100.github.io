@@ -24,9 +24,19 @@
        rgba(255, 255, 255, 0.18),
        rgba(255, 255, 255, 0.18)
      ),
-     url("/images/pku.png");
+     url("/images/pku-hero.jpg");
    background-size: cover;
    background-position: center;
+ }
+
+ html {
+   scroll-behavior: smooth;
+   scroll-padding-top: 80px;
+ }
+
+ .page__content iframe,
+ .page__content video {
+   max-width: 100%;
  }
 
 // /* ===== Homepage layout ===== */

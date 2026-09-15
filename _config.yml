@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Chunyu Zhao"
 title_separator          : "-"
 name                     : &name "Chunyu Zhao"
-description              : &description "Research Assistant at Peking University"
+description              : &description "Remote sensing and Earth observation researcher working on image restoration, super-resolution, multimodal data fusion, and long-term vegetation monitoring."
 url                      : "https://chunyuzhao.com"
 baseurl                  : ""
 repository               : "Lucaszhao2100/Lucaszhao2100.github.io"
@@ -24,11 +24,11 @@ author:
   bio              : "Research Assistant at Peking University"
   location         : "Beijing, China"
   employer         : "Peking University"
-  email            : "chunyuz.zhao@gmail.com<br>lucaszhao2100@163.com"
+  email            : "chunyuz.zhao@gmail.com"
 
   # Academic websites
-  googlescholar    : "https://scholar.google.co.uk/citations?user=WczTXKEAAAAJ&hl=EN"
-  orcid            : "https://orcid.org/my-orcid?orcid=0009-0002-4207-8538"
+  googlescholar    : "https://scholar.google.com/citations?user=WczTXKEAAAAJ&hl=en"
+  orcid            : "https://orcid.org/0009-0002-4207-8538"
   researchgate     : "https://www.researchgate.net/profile/Chunyu-Zhao-15"
 
   # Repositories
@@ -41,37 +41,17 @@ publication_category:
   conferences:
     title: 'Conference Papers'
 
-# ==================== 优化1：开启AJAX无刷新导航（效果最明显） ====================
-# 点击导航瞬间切换，没有白屏等待
-ajax: true
-
 # Site Settings
 teaser                   :
 breadcrumbs              : false
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled"
 talkmap_link             : false
 
 # ==================== 优化2：关闭所有不必要的功能 ====================
 comments:
   provider               : false  # 关闭评论系统
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601"
 
 atom_feed:
   hide                   : true  # 关闭RSS订阅（学术主页几乎用不到）
@@ -91,23 +71,26 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :
-og_description           :
+og_image                 : "pku-hero.jpg"
+og_description           : *description
 social:
   type                    : "Person"
   name                    : "Chunyu Zhao"
+  links:
+    - "https://scholar.google.com/citations?user=WczTXKEAAAAJ"
+    - "https://orcid.org/0009-0002-4207-8538"
+    - "https://www.researchgate.net/profile/Chunyu-Zhao-15"
+    - "https://github.com/Lucaszhao2100"
 
-# Analytics
+# Analytics is intentionally disabled. If analytics is added later, update the
+# privacy notice and obtain any consent required for the target audience.
 analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-L9XKP06DYV"
+  provider: false
 
 # Reading Files
 include:
   - .htaccess
   - _pages
-  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -129,6 +112,7 @@ exclude:
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
   - Rakefile
@@ -162,13 +146,13 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
     output: true
@@ -231,6 +215,10 @@ defaults:
       layout: talk
       author_profile: true
       share: false
+  - scope:
+      path: "talkmap"
+    values:
+      sitemap: false
 
 # Sass/SCSS
 sass:

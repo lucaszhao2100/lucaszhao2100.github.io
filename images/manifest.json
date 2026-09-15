@@ -1,5 +1,10 @@
 {
-	"name": "OOjs UI icon academic-progressive",
+	"name": "Chunyu Zhao Academic Website",
+	"short_name": "Chunyu Zhao",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#ffffff",
 	"icons": [
 		{
 			"src": "/images/favicon-192x192.png",

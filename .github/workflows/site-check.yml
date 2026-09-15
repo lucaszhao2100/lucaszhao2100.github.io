@@ -1,0 +1,38 @@
+name: Check site build
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+      - name: Install Ruby dependencies
+        run: |
+          bundle config set path vendor/bundle
+          bundle install --jobs 4 --retry 3
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --strict_front_matter
+      - name: Verify essential pages
+        shell: bash
+        run: |
+          test -f _site/index.html
+          test -f _site/publications/index.html
+          test -f _site/talks/index.html
+          test -f _site/cv/index.html
+          test -f _site/blog/index.html

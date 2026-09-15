@@ -1,9 +1,0 @@
----
-title: "An Enhanced CycleGAN to Derive Temporally Continuous NDVI from Sentinel-1 SAR Images"
-collection: publications
-type: journal
-date: 2025-11-24
-venue: "Remote Sensing"
-paperurl: "https://www.mdpi.com/2072-4292/18/1/56"
-citation: "Wang, A., Xiao, Z., <b>Zhao, C.</b>, Li, J., Zhang, Y., Song, J. & Yang, H. (2025). An Enhanced CycleGAN to Derive Temporally Continuous NDVI from Sentinel-1 SAR Images. <i>Remote Sensing</i>, 18(1), 56."
----
