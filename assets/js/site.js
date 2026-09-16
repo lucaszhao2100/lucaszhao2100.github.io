@@ -106,11 +106,5 @@
     window.addEventListener("resize", updateNavigation, { passive: true });
     window.addEventListener("orientationchange", updateNavigation, { passive: true });
 
-    const footer = document.querySelector(".page__footer");
-    const updateFooterSpace = () => {
-      if (footer) document.body.style.marginBottom = `${footer.offsetHeight}px`;
-    };
-    updateFooterSpace();
-    if (footer && "ResizeObserver" in window) new ResizeObserver(updateFooterSpace).observe(footer);
   });
 })();
