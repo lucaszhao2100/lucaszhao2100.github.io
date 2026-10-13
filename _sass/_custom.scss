@@ -1,102 +1,112 @@
 /* ===== Publications 正文两端对齐 ===== */
 
- .archive__item-excerpt,
- .archive__item-body p {
-   text-align: justify;
-   text-justify: inter-word;
-   line-height: 1.6;
- }
- .layout--single .page__content p {
-   text-align: justify;
-   text-justify: inter-word;
-   line-height: 1.6;
- }
+.archive__item-excerpt,
+.archive__item-body p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+}
+
+/* Publications 页面自定义 ol/li 列表 */
+.page__content ol li {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+}
+
+.layout--single .page__content p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+}
 
 
- /* ===== Homepage hero ===== */
+/* ===== Homepage hero ===== */
 
- .homepage-hero {
-   width: 100%;
-   height: 200px;
-   margin: 0;
-   background:
-     linear-gradient(
-       rgba(255, 255, 255, 0.18),
-       rgba(255, 255, 255, 0.18)
-     ),
-     url("/images/pku-hero.jpg");
-   background-size: cover;
-   background-position: center;
- }
+.homepage-hero {
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.18),
+      rgba(255, 255, 255, 0.18)
+    ),
+    url("/images/pku-hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
- html {
-   scroll-behavior: smooth;
-   scroll-padding-top: 80px;
- }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
 
- .page__content iframe,
- .page__content video {
-   max-width: 100%;
- }
+.page__content iframe,
+.page__content video {
+  max-width: 100%;
+}
 
- /* ===== Personal site identity ===== */
 
- .site-brand {
-   display: inline-flex !important;
-   align-items: center;
-   gap: 0.65rem;
-   padding: 0.35rem 0 !important;
- }
+/* ===== Personal site identity ===== */
 
- .site-brand__mark {
-   display: inline-flex;
-   align-items: center;
-   justify-content: center;
-   width: 2.25rem;
-   height: 2.25rem;
-   flex: 0 0 2.25rem;
-   border-radius: 0.72rem;
-   color: #fff;
-   background: linear-gradient(145deg, #0b2239, #176b78);
-   box-shadow: 0 0.35rem 0.9rem rgba(18, 50, 74, 0.22);
-   font-family: "Helvetica Neue", Arial, sans-serif;
-   font-size: 0.84rem;
-   font-weight: 800;
-   letter-spacing: -0.04em;
- }
+.site-brand {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.35rem 0 !important;
+}
 
- .site-brand__copy {
-   display: flex;
-   flex-direction: column;
-   line-height: 1.05;
- }
+.site-brand__mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  flex: 0 0 2.25rem;
+  border-radius: 0.72rem;
+  color: #fff;
+  background: linear-gradient(145deg, #0b2239, #176b78);
+  box-shadow: 0 0.35rem 0.9rem rgba(18, 50, 74, 0.22);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
 
- .site-brand__name {
-   font-size: 0.96rem;
-   font-weight: 750;
-   letter-spacing: 0.01em;
- }
+.site-brand__copy {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.05;
+}
 
- .site-brand__field {
-   margin-top: 0.22rem;
-   color: var(--global-text-color-light);
-   font-size: 0.57rem;
-   font-weight: 600;
-   letter-spacing: 0.13em;
-   text-transform: uppercase;
- }
+.site-brand__name {
+  font-size: 0.96rem;
+  font-weight: 750;
+  letter-spacing: 0.01em;
+}
 
- @media (max-width: 30rem) {
-   .site-brand__field {
-     display: none;
-   }
+.site-brand__field {
+  margin-top: 0.22rem;
+  color: var(--global-text-color-light);
+  font-size: 0.57rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
 
-   .site-brand__mark {
-     width: 2rem;
-     height: 2rem;
-     flex-basis: 2rem;
-   }
- }
+@media (max-width: 30rem) {
+  .site-brand__field {
+    display: none;
+  }
+
+  .site-brand__mark {
+    width: 2rem;
+    height: 2rem;
+    flex-basis: 2rem;
+  }
+}
+
 
 // /* ===== Homepage layout ===== */
 
