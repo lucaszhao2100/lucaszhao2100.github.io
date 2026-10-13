@@ -20,7 +20,7 @@ author_profile: true
 
   <ol reversed start="{{ manuscripts.size }}" style="margin: 0 0 1.5em 1.2em; padding-left: 0;">
     {% for post in manuscripts %}
-      <li style="margin-bottom: 10px; padding-left: 0.3em;">
+      <li style="margin-bottom: 10px; padding-left: 0.3em; text-align: justify; text-justify: inter-word; line-height: 1.6;">
         {{ post.citation }}
         {% if post.paperurl %}<a href="{{ post.paperurl }}">[Link]</a>{% endif %}
       </li>
@@ -37,7 +37,7 @@ author_profile: true
   {% comment %} margin: 顶部0, 右边0, 底部1em, 左边1.2em {% endcomment %}
   <ol reversed start="{{ journals.size }}" style="margin: 0 0 1.5em 1.2em; padding-left: 0;">
     {% for post in journals %}
-      <li style="margin-bottom: 10px; padding-left: 0.3em;">
+      <li style="margin-bottom: 10px; padding-left: 0.3em; text-align: justify; text-justify: inter-word; line-height: 1.6;">
         {{ post.citation }}
         {% if post.paperurl %}<a href="{{ post.paperurl }}">[Link]</a>{% endif %}
       </li>
@@ -52,7 +52,7 @@ author_profile: true
 
   <ol reversed start="{{ conferences.size }}" style="margin: 0 0 1.5em 1.2em; padding-left: 0;">
     {% for post in conferences %}
-      <li style="margin-bottom: 10px; padding-left: 0.3em;">
+      <li style="margin-bottom: 10px; padding-left: 0.3em; text-align: justify; text-justify: inter-word; line-height: 1.6;">
         {{ post.citation }}
         {% if post.paperurl %}<a href="{{ post.paperurl }}">[Link]</a>{% endif %}
       </li>
