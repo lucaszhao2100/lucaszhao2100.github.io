@@ -47,17 +47,17 @@ I am particularly interested in developing robust and generalizable learning-bas
 * **Long-Term Ecosystem Monitoring** — Applying multi-temporal satellite observations and deep learning to investigate long-term vegetation dynamics in wetland ecosystems, supported by field observations in Baiyangdian.
 
 ## 🔥 News
-* 📢📢 **[Jul 2026]** 📢📢 Joined the research group of **Dr. Jing Cheng** at the College of Environmental Sciences and Engineering, Peking University, as a Research Assistant.
+* 📢📢 **[Jul 2026]** 📢📢 **Joined the research group of Dr. Jing Cheng at the College of Environmental Sciences and Engineering, Peking University, as a Research Assistant.**
 
-* **[May 2026]** Successfully passed the double-blind review and final defense of my master’s thesis, **Temporal Scale Extension of LAI Products Derived from Satellite Observations Using Deep Neural Networks**.
+* **[May 2026]** Successfully passed the double-blind review and final defense of my master’s thesis, Temporal Scale Extension of LAI Products Derived from Satellite Observations Using Deep Neural Networks.
 
-* **[Dec 2025]** Our paper, **An Enhanced CycleGAN to Derive Temporally Continuous NDVI from Sentinel-1 SAR Images**, was published online in *Remote Sensing*.
+* **[Dec 2025]** Our paper, An Enhanced CycleGAN to Derive Temporally Continuous NDVI from Sentinel-1 SAR Images, was published online in *Remote Sensing*.
   [[See Publication](https://www.mdpi.com/2072-4292/18/1/56)]
 
-* **[Sep 2025]** My first paper as first author, **Alteration Mineral Information Extraction Based on Image Super-Resolution Technology**, was published online in *International Journal of Applied Earth Observation and Geoinformation*.
+* **[Sep 2025]** My first paper as first author, Alteration Mineral Information Extraction Based on Image Super-Resolution Technology, was published online in *International Journal of Applied Earth Observation and Geoinformation*.
   [[See Publication](https://www.sciencedirect.com/science/article/pii/S1569843225005199)]
 
-* **[Aug 2025]** Presented **Time-Scale Extension Algorithm of MUSES LAI Products Using Image Super-Resolution** at **IGARSS 2025** in Brisbane, Australia.  
+* **[Aug 2025]** Presented Time-Scale Extension Algorithm of MUSES LAI Products Using Image Super-Resolution at **IGARSS 2025** in Brisbane, Australia.  
   [[See Talk](/talks/2025-igarss-muses-lai)]
 
-* **[Apr 2025]** Received **IEEE GRSS Travel Support of USD 1,550** to attend **IGARSS 2025** in Brisbane, Australia.
+* **[Apr 2025]** Received IEEE GRSS Travel Support of USD 1,550 to attend **IGARSS 2025** in Brisbane, Australia.
