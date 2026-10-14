@@ -57,7 +57,7 @@ I am particularly interested in developing robust and generalizable learning-bas
 * **[Sep 2025]** My first paper as first author, Alteration Mineral Information Extraction Based on Image Super-Resolution Technology, was published online in *International Journal of Applied Earth Observation and Geoinformation*.
   [[See Publication](https://www.sciencedirect.com/science/article/pii/S1569843225005199)]
 
-* **[Aug 2025]** Presented Time-Scale Extension Algorithm of MUSES LAI Products Using Image Super-Resolution at **IGARSS 2025** in Brisbane, Australia.  
+* **[Aug 2025]** Presented Time-Scale Extension Algorithm of MUSES LAI Products Using Image Super-Resolution at *IGARSS 2025* in Brisbane, Australia.  
   [[See Talk](/talks/2025-igarss-muses-lai)]
 
-* **[Apr 2025]** Received IEEE GRSS Travel Support of USD 1,550 to attend **IGARSS 2025** in Brisbane, Australia.
+* **[Apr 2025]** Received IEEE GRSS Travel Support of USD 1,550 to attend *IGARSS 2025* in Brisbane, Australia.
