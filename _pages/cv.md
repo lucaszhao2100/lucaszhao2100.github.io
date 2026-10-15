@@ -12,4 +12,4 @@ redirect_from:
 You can view the latest version of my academic CV below.  
 *Last updated: Oct. 15, 2026.*
 
-[📄 View CV](/files/ChunyuZhao-CV-2026.pdf)
+[📄 View CV](/file/ChunyuZhao-CV-2026.pdf)
