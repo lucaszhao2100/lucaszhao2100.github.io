@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-## Curriculum Vitae
+You can view the latest version of my academic CV below.  
+*Last updated: Oct. 15, 2026.*
 
-You can view the latest version of my academic CV below.
-
-[📄 View CV](/files/Chunyu_Zhao_CV.pdf)
+[📄 View CV](/files/ChunyuZhao-CV-2026.pdf)
