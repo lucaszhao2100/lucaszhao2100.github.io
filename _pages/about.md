@@ -26,7 +26,7 @@ redirect_from:
 
 🧑‍🎓 About Me
 =====
-I am a Research Assistant in [Dr. Jing Cheng’s](https://scholar.pku.edu.cn/jingcheng/home) research group at the College of Environmental Sciences and Engineering, Peking University.
+I am a Research Assistant in [Dr. Jing Cheng’s](http://scholar.pku.edu.cn/jingcheng) research group at the College of Environmental Sciences and Engineering, Peking University.
 
 I received my M.Eng. in Remote Sensing Science and Technology from Beijing Normal University in June 2026. During my master’s studies, I was supervised by [Prof. Zhiqiang Xiao](https://geot.bnu.edu.cn/Public/htm/news/5/172.html) and worked as a member of the [MUSES](https://muses.bnu.edu.cn/) team.
 
