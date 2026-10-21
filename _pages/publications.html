@@ -80,7 +80,7 @@ author_profile: true
 {% endif %}
 
 {% comment %} 2. Submitted and in-preparation manuscripts {% endcomment %}
-{% assign manuscripts = all_pubs | where: "type", "manuscript" %}
+{% assign manuscripts = all_pubs | where: "type", "manuscript" | sort: "manuscript_order" %}
 {% if manuscripts.size > 0 %}
   <h2 class="archive__subtitle" style="margin-bottom: 0.5em; border-bottom: 1px solid #eee;">
     Submitted and in-preparation manuscripts
