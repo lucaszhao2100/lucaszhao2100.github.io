@@ -5,8 +5,25 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+  /* ===== Journal name highlight ===== */
+  .journal-list li i {
+    display: inline;
+    background: #edf3f8;
+    padding: 0.10em 0.38em;
+    border-radius: 0.3em;
+    font-style: normal;
+    font-weight: 600;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+</style>
+
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">
+    You can also find my articles on
+    <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+  </div>
 {% endif %}
 
 {% include base_path %}
@@ -16,13 +33,17 @@ author_profile: true
 {% comment %} 1. 手稿部分 {% endcomment %}
 {% assign manuscripts = all_pubs | where: "type", "manuscript" %}
 {% if manuscripts.size > 0 %}
-  <h2 class="archive__subtitle" style="margin-bottom: 0.5em; border-bottom: 1px solid #eee;">Manuscripts</h2>
+  <h2 class="archive__subtitle" style="margin-bottom: 0.5em; border-bottom: 1px solid #eee;">
+    Manuscripts
+  </h2>
 
   <ol reversed start="{{ manuscripts.size }}" style="margin: 0 0 1.5em 1.2em; padding-left: 0;">
     {% for post in manuscripts %}
       <li style="margin-bottom: 10px; padding-left: 0.3em; text-align: justify; text-justify: inter-word; line-height: 1.6;">
         {{ post.citation }}
-        {% if post.paperurl %}<a href="{{ post.paperurl }}">[Link]</a>{% endif %}
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}">[Link]</a>
+        {% endif %}
       </li>
     {% endfor %}
   </ol>
@@ -31,15 +52,21 @@ author_profile: true
 {% comment %} 2. 期刊部分 {% endcomment %}
 {% assign journals = all_pubs | where: "type", "journal" %}
 {% if journals.size > 0 %}
-  {% comment %} 减小 h2 底部边距，用 border-bottom 代替 hr 会更紧凑 {% endcomment %}
-  <h2 class="archive__subtitle" style="margin-bottom: 0.5em; border-bottom: 1px solid #eee;">Journal articles</h2>
+  <h2 class="archive__subtitle" style="margin-bottom: 0.5em; border-bottom: 1px solid #eee;">
+    Journal articles
+  </h2>
 
-  {% comment %} margin: 顶部0, 右边0, 底部1em, 左边1.2em {% endcomment %}
-  <ol reversed start="{{ journals.size }}" style="margin: 0 0 1.5em 1.2em; padding-left: 0;">
+  <ol class="journal-list"
+      reversed
+      start="{{ journals.size }}"
+      style="margin: 0 0 1.5em 1.2em; padding-left: 0;">
+
     {% for post in journals %}
       <li style="margin-bottom: 10px; padding-left: 0.3em; text-align: justify; text-justify: inter-word; line-height: 1.6;">
         {{ post.citation }}
-        {% if post.paperurl %}<a href="{{ post.paperurl }}">[Link]</a>{% endif %}
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}">[Link]</a>
+        {% endif %}
       </li>
     {% endfor %}
   </ol>
@@ -48,13 +75,17 @@ author_profile: true
 {% comment %} 3. 会议部分 {% endcomment %}
 {% assign conferences = all_pubs | where: "type", "conference" %}
 {% if conferences.size > 0 %}
-  <h2 class="archive__subtitle" style="margin-bottom: 0.5em; border-bottom: 1px solid #eee;">Conference papers</h2>
+  <h2 class="archive__subtitle" style="margin-bottom: 0.5em; border-bottom: 1px solid #eee;">
+    Conference papers
+  </h2>
 
   <ol reversed start="{{ conferences.size }}" style="margin: 0 0 1.5em 1.2em; padding-left: 0;">
     {% for post in conferences %}
       <li style="margin-bottom: 10px; padding-left: 0.3em; text-align: justify; text-justify: inter-word; line-height: 1.6;">
         {{ post.citation }}
-        {% if post.paperurl %}<a href="{{ post.paperurl }}">[Link]</a>{% endif %}
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}">[Link]</a>
+        {% endif %}
       </li>
     {% endfor %}
   </ol>
