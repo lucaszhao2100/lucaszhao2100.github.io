@@ -41,26 +41,7 @@ author_profile: true
 
 {% assign all_pubs = site.publications | sort: 'date' | reverse %}
 
-{% comment %} 1. Submitted and in-preparation manuscripts {% endcomment %}
-{% assign manuscripts = all_pubs | where: "type", "manuscript" %}
-{% if manuscripts.size > 0 %}
-  <h2 class="archive__subtitle" style="margin-bottom: 0.5em; border-bottom: 1px solid #eee;">
-    Submitted and in-preparation manuscripts
-  </h2>
-
-  <ol reversed start="{{ manuscripts.size }}" style="margin: 0 0 1.5em 1.2em; padding-left: 0;">
-    {% for post in manuscripts %}
-      <li style="margin-bottom: 10px; padding-left: 0.3em; text-align: justify; text-justify: inter-word; line-height: 1.6;">
-        {{ post.citation }}
-        {% if post.paperurl %}
-          <a href="{{ post.paperurl }}">[Link]</a>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ol>
-{% endif %}
-
-{% comment %} 2. Peer-reviewed journal articles {% endcomment %}
+{% comment %} 1. Peer-reviewed journal articles {% endcomment %}
 {% assign journals = all_pubs | where: "type", "journal" %}
 {% if journals.size > 0 %}
   <h2 class="archive__subtitle" style="margin-bottom: 0.5em; border-bottom: 1px solid #eee;">
@@ -73,6 +54,25 @@ author_profile: true
       style="margin: 0 0 1.5em 1.2em; padding-left: 0;">
 
     {% for post in journals %}
+      <li style="margin-bottom: 10px; padding-left: 0.3em; text-align: justify; text-justify: inter-word; line-height: 1.6;">
+        {{ post.citation }}
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}">[Link]</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+{% endif %}
+
+{% comment %} 2. Submitted and in-preparation manuscripts {% endcomment %}
+{% assign manuscripts = all_pubs | where: "type", "manuscript" %}
+{% if manuscripts.size > 0 %}
+  <h2 class="archive__subtitle" style="margin-bottom: 0.5em; border-bottom: 1px solid #eee;">
+    Submitted and in-preparation manuscripts
+  </h2>
+
+  <ol reversed start="{{ manuscripts.size }}" style="margin: 0 0 1.5em 1.2em; padding-left: 0;">
+    {% for post in manuscripts %}
       <li style="margin-bottom: 10px; padding-left: 0.3em; text-align: justify; text-justify: inter-word; line-height: 1.6;">
         {{ post.citation }}
         {% if post.paperurl %}
