@@ -41,11 +41,11 @@ author_profile: true
 
 {% assign all_pubs = site.publications | sort: 'date' | reverse %}
 
-{% comment %} 1. 手稿部分 {% endcomment %}
+{% comment %} 1. Submitted and in-preparation manuscripts {% endcomment %}
 {% assign manuscripts = all_pubs | where: "type", "manuscript" %}
 {% if manuscripts.size > 0 %}
   <h2 class="archive__subtitle" style="margin-bottom: 0.5em; border-bottom: 1px solid #eee;">
-    Manuscripts
+    Submitted and in-preparation manuscripts
   </h2>
 
   <ol reversed start="{{ manuscripts.size }}" style="margin: 0 0 1.5em 1.2em; padding-left: 0;">
@@ -60,11 +60,11 @@ author_profile: true
   </ol>
 {% endif %}
 
-{% comment %} 2. 期刊部分 {% endcomment %}
+{% comment %} 2. Peer-reviewed journal articles {% endcomment %}
 {% assign journals = all_pubs | where: "type", "journal" %}
 {% if journals.size > 0 %}
   <h2 class="archive__subtitle" style="margin-bottom: 0.5em; border-bottom: 1px solid #eee;">
-    Journal articles
+    Peer-reviewed journal articles
   </h2>
 
   <ol class="journal-list"
@@ -83,11 +83,11 @@ author_profile: true
   </ol>
 {% endif %}
 
-{% comment %} 3. 会议部分 {% endcomment %}
+{% comment %} 3. Conference paper {% endcomment %}
 {% assign conferences = all_pubs | where: "type", "conference" %}
 {% if conferences.size > 0 %}
   <h2 class="archive__subtitle" style="margin-bottom: 0.5em; border-bottom: 1px solid #eee;">
-    Conference papers
+    Conference paper
   </h2>
 
   <ol reversed start="{{ conferences.size }}" style="margin: 0 0 1.5em 1.2em; padding-left: 0;">
