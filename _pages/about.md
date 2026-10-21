@@ -26,16 +26,18 @@ redirect_from:
 
 🧑‍🎓 About Me
 =====
-I am a Research Assistant in [Dr. Jing Cheng’s](https://scholar.pku.edu.cn/jingcheng/home) research group at the College of Environmental Sciences and Engineering, Peking University. My research lies at the intersection of remote sensing, computer vision, and Earth science.
+I am a Research Assistant in [Dr. Jing Cheng’s](https://scholar.pku.edu.cn/jingcheng/home) research group at the College of Environmental Sciences and Engineering, Peking University.
 
-I received my M.Eng. in Remote Sensing Science and Technology from Beijing Normal University (BNU) in June 2026. During my master’s studies, I was supervised by [Prof. Zhiqiang Xiao](https://geot.bnu.edu.cn/Public/htm/news/5/172.html) and worked as a member of the [MUSES](https://muses.bnu.edu.cn/) team.
+I received my M.Eng. in Remote Sensing Science and Technology from Beijing Normal University in June 2026. During my master’s studies, I was supervised by [Prof. Zhiqiang Xiao](https://geot.bnu.edu.cn/Public/htm/news/5/172.html) and worked as a member of the [MUSES](https://muses.bnu.edu.cn/) team.
 
-I obtained my B.Eng. in Resources Prospecting Engineering, with a specialization in solid mineral exploration, from the China University of Geosciences (Beijing) (CUGB) in June 2023. I graduated with the distinction of Outstanding Graduate and completed my undergraduate thesis under the supervision of [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang).
+I obtained my B.Eng. in Resources Prospecting Engineering, with a specialization in solid mineral exploration, from the China University of Geosciences (Beijing) in June 2023. I graduated with the distinction of Outstanding Graduate and completed my undergraduate thesis under the supervision of [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang).
 
 ## 🛰️ Research Interests
-* **Remote Sensing Computer Vision**: Develop computer-vision methods for remote sensing, including image restoration, super-resolution, and multimodal data fusion.
-* **Long-term Earth Observation**: Reconstruct long-term remote sensing time series to characterize continuous changes in biophysical parameters, vegetation indices, and agricultural variables.
-* **AI for Geoscience**: Apply AI methods to geoscientific problems, with a particular interest in alteration mineral mapping and mineralization prediction.
+My research lies at **Remote Sensing Computer Vision**; **Long-Term Earth Observation**; **AI for Geoscience**:
+
+   1. **Remote Sensing Computer Vision**: Develop computer-vision methods for remote sensing, including image restoration, super-resolution, and multimodal data fusion.
+   2. **Long-term Earth Observation**: Reconstruct long-term remote sensing time series to characterize continuous changes in biophysical parameters, vegetation indices, and agricultural variables.
+   3. **AI for Geoscience**: Apply AI methods to geoscientific problems, with a particular interest in alteration mineral mapping and mineralization prediction.
 
 Looking ahead, I am interested in exploring robust and generalizable deep learning methods that incorporate physical constraints for long-term and multimodal Earth observation.
 
