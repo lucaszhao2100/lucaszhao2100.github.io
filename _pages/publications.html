@@ -6,25 +6,40 @@ author_profile: true
 ---
 
 <style>
-  /* ===== Journal name highlight ===== */
+  /* ===== Journal name: green label ===== */
   .journal-list li i {
     display: inline;
 
-    /* 亮色 / 深色模式均适用 */
-    background: rgba(128, 128, 128, 0.16);
-    border: 1px solid rgba(128, 128, 128, 0.28);
+    background: #2e7d32;
+    color: #ffffff;
 
-    /* 跟随当前主题文字颜色 */
-    color: inherit;
-
-    padding: 0.08em 0.36em;
+    padding: 0.08em 0.38em;
     border-radius: 0.3em;
 
-    /* 保留期刊名称斜体 */
+    /* 保留斜体 */
     font-style: italic;
     font-weight: 500;
 
     /* 长期刊名称换行后仍保留底色 */
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+  /* ===== Conference name: blue label ===== */
+  .conference-list li i {
+    display: inline;
+
+    background: #1565c0;
+    color: #ffffff;
+
+    padding: 0.08em 0.38em;
+    border-radius: 0.3em;
+
+    /* 保留斜体 */
+    font-style: italic;
+    font-weight: 500;
+
+    /* 长会议名称换行后仍保留底色 */
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
   }
@@ -90,7 +105,11 @@ author_profile: true
     Conference paper
   </h2>
 
-  <ol reversed start="{{ conferences.size }}" style="margin: 0 0 1.5em 1.2em; padding-left: 0;">
+  <ol class="conference-list"
+      reversed
+      start="{{ conferences.size }}"
+      style="margin: 0 0 1.5em 1.2em; padding-left: 0;">
+
     {% for post in conferences %}
       <li style="margin-bottom: 10px; padding-left: 0.3em; text-align: justify; text-justify: inter-word; line-height: 1.6;">
         {{ post.citation }}
