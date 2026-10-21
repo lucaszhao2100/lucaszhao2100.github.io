@@ -9,11 +9,22 @@ author_profile: true
   /* ===== Journal name highlight ===== */
   .journal-list li i {
     display: inline;
-    background: #edf3f8;
-    padding: 0.10em 0.38em;
+
+    /* 亮色 / 深色模式均适用 */
+    background: rgba(128, 128, 128, 0.16);
+    border: 1px solid rgba(128, 128, 128, 0.28);
+
+    /* 跟随当前主题文字颜色 */
+    color: inherit;
+
+    padding: 0.08em 0.36em;
     border-radius: 0.3em;
-    font-style: normal;
-    font-weight: 600;
+
+    /* 保留期刊名称斜体 */
+    font-style: italic;
+    font-weight: 500;
+
+    /* 长期刊名称换行后仍保留底色 */
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
   }
