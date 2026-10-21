@@ -37,6 +37,7 @@ My research lies at **Remote Sensing Computer Vision**; **Long-Term Earth Observ
    1. **Remote Sensing Computer Vision**: Develop computer-vision methods for remote sensing, including image restoration, super-resolution, and multimodal data fusion.
    2. **Long-term Earth Observation**: Reconstruct long-term remote sensing time series to characterize continuous changes in biophysical parameters, vegetation indices, and agricultural variables.
    3. **AI for Geoscience**: Apply AI methods to geoscientific problems, with a particular interest in alteration mineral mapping and mineralization prediction.
+
 Looking ahead, I am interested in exploring robust and generalizable deep learning methods that incorporate physical constraints for long-term and multimodal Earth observation.
 
 ## 🌟 Research Highlights
