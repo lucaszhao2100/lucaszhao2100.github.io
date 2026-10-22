@@ -1,89 +1,89 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
+# Settings that affect the entire site.
+# Restart the local server after changing this file.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default"
-title                    : "Chunyu Zhao"
-title_separator          : "-"
-name                     : &name "Chunyu Zhao"
-description              : &description "Remote sensing and Earth observation researcher working on image restoration, super-resolution, multimodal data fusion, and long-term vegetation monitoring."
-url                      : "https://chunyuzhao.com"
-baseurl                  : ""
-repository               : "Lucaszhao2100/Lucaszhao2100.github.io"
+locale: "en-US"
+site_theme: "default"
+title: "Chunyu Zhao"
+title_separator: "-"
+name: &name "Chunyu Zhao"
+description: &description "Remote sensing and Earth observation researcher working on image restoration, super-resolution, multimodal data fusion, and long-term vegetation monitoring."
+url: "https://chunyuzhao.com"
+baseurl: ""
+repository: "Lucaszhao2100/Lucaszhao2100.github.io"
 
 # Site Author
 author:
-  avatar           : "image1.jpg"
-  name             : "赵春宇 Chunyu Zhao⛷️"
-  bio              : "Research Assistant at Peking University"
-  location         : "Beijing, China"
-  employer         : "Peking University"
-  email            : "chunyuz.zhao@gmail.com"
+  avatar: "image1.jpg"
+  name: "赵春宇 Chunyu Zhao⛷️"
+  bio: "Research Assistant at Peking University"
+  location: "Beijing, China"
+  employer: "Peking University"
+  email: "chunyuz.zhao@gmail.com"
 
   # Academic websites
-  googlescholar    : "https://scholar.google.com/citations?user=WczTXKEAAAAJ&hl=en"
-  orcid            : "https://orcid.org/0009-0002-4207-8538"
-  researchgate     : "https://www.researchgate.net/profile/Chunyu-Zhao-15"
+  googlescholar: "https://scholar.google.com/citations?user=WczTXKEAAAAJ&hl=en"
+  orcid: "https://orcid.org/0009-0002-4207-8538"
+  researchgate: "https://www.researchgate.net/profile/Chunyu-Zhao-15"
 
   # Repositories
-  github           : Lucaszhao2100
+  github: Lucaszhao2100
 
 # Publication Category
 publication_category:
   manuscripts:
-    title: 'Journal Articles'    
+    title: "Journal Articles"
   conferences:
-    title: 'Conference Papers'
+    title: "Conference Papers"
 
 # Site Settings
-teaser                   :
-breadcrumbs              : false
-words_per_minute         : 160
-future                   : false
-read_more                : "disabled"
-talkmap_link             : false
+teaser:
+breadcrumbs: false
+words_per_minute: 160
+future: false
+read_more: "disabled"
+talkmap_link: false
 
-# ==================== 优化2：关闭所有不必要的功能 ====================
+# Comments
 comments:
-  provider               : false  # 关闭评论系统
+  provider: false
 
+# RSS
 atom_feed:
-  hide                   : true  # 关闭RSS订阅（学术主页几乎用不到）
-  path                   :
+  hide: true
+  path:
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+google_site_verification:
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
 
-# ==================== 优化3：关闭社交分享功能 ====================
-# 移除所有页面的分享按钮，减少JS加载
+# Social sharing metadata
 twitter:
-  username               :
+  username:
+
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : "pku-hero.jpg"
-og_description           : *description
+  username:
+  app_id:
+  publisher:
+
+og_image: "pku-hero.jpg"
+og_description: *description
+
 social:
-  type                    : "Person"
-  name                    : "Chunyu Zhao"
+  type: "Person"
+  name: "Chunyu Zhao"
   links:
     - "https://scholar.google.com/citations?user=WczTXKEAAAAJ"
     - "https://orcid.org/0009-0002-4207-8538"
     - "https://www.researchgate.net/profile/Chunyu-Zhao-15"
     - "https://github.com/Lucaszhao2100"
 
-# Analytics is intentionally disabled. If analytics is added later, update the
-# privacy notice and obtain any consent required for the target audience.
+# Analytics
+# Update the privacy notice before enabling data-collecting features.
 analytics:
   provider: false
 
@@ -91,6 +91,7 @@ analytics:
 include:
   - .htaccess
   - _pages
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -119,9 +120,11 @@ exclude:
   - README
   - tmp
   - vendor
+
 keep_files:
   - .git
   - .svn
+
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -148,21 +151,25 @@ collections:
   teaching:
     output: false
     permalink: /:collection/:path/
+
+  # Published papers: generate detail pages
   publications:
     output: true
     permalink: /:collection/:path/
 
+  # Unpublished manuscripts: available to Liquid, no detail pages
   manuscripts:
     output: false
-    
+
   portfolio:
     output: false
     permalink: /:collection/:path/
+
   talks:
     output: true
     permalink: /:collection/:path/
 
-# ==================== 优化4：全局关闭分享和评论 ====================
+# Front Matter Defaults
 defaults:
   # _posts
   - scope:
@@ -171,10 +178,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false  # 关闭阅读时间显示
+      read_time: false
       comments: false
       share: false
       related: false
+
   # _pages
   - scope:
       path: ""
@@ -184,6 +192,7 @@ defaults:
       author_profile: true
       share: false
       comments: false
+
   # _teaching
   - scope:
       path: ""
@@ -193,6 +202,7 @@ defaults:
       author_profile: true
       share: false
       comments: false
+
   # _publications
   - scope:
       path: ""
@@ -202,6 +212,14 @@ defaults:
       author_profile: true
       share: false
       comments: false
+
+  # _manuscripts
+  - scope:
+      path: ""
+      type: manuscripts
+    values:
+      sitemap: false
+
   # _portfolio
   - scope:
       path: ""
@@ -211,6 +229,7 @@ defaults:
       author_profile: true
       share: false
       comment: false
+
   # _talks
   - scope:
       path: ""
@@ -219,6 +238,8 @@ defaults:
       layout: talk
       author_profile: true
       share: false
+
+  # Talk map
   - scope:
       path: "talkmap"
     values:
@@ -227,11 +248,11 @@ defaults:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed  # 已经是压缩模式，保持不变
+  style: compressed
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai  # 优化5：改成中国时区，时间显示更准确
+timezone: Asia/Shanghai
 
 # Plugins
 plugins:
@@ -241,7 +262,6 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
-# 优化6：移除不需要的插件
 whitelist:
   - jekyll-feed
   - jekyll-gist
@@ -253,6 +273,7 @@ whitelist:
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
@@ -260,15 +281,8 @@ tag_archive:
 # HTML Compression
 compress_html:
   clippings: all
-  comments: ["<!-- ", " -->"]  # 优化7：移除所有HTML注释
+  comments: ["<!-- ", " -->"]
   endings: all
   ignore:
     envs: development
   blanklines: false
-  
-    # Unpublished manuscripts: list only
-  - scope:
-      path: ""
-      type: manuscripts
-    values:
-      sitemap: false
