@@ -151,6 +151,10 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+
+  manuscripts:
+    output: false
+    
   portfolio:
     output: false
     permalink: /:collection/:path/
@@ -261,3 +265,10 @@ compress_html:
   ignore:
     envs: development
   blanklines: false
+  
+    # Unpublished manuscripts: list only
+  - scope:
+      path: ""
+      type: manuscripts
+    values:
+      sitemap: false
