@@ -51,7 +51,9 @@ author_profile: true
     <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
   </div>
 {% endif %}
-
+<p style="margin-top: 0.5em; margin-bottom: 1em; font-size: 0.9em;">
+  <sup>*</sup> Corresponding author.
+</p>
 {% include base_path %}
 
 {% assign all_pubs = site.publications | sort: 'date' | reverse %}
