@@ -33,7 +33,7 @@ I received my M.Eng. in Remote Sensing Science and Technology from Beijing Norma
 I obtained my B.Eng. in Resources Prospecting Engineering, with a specialization in solid mineral exploration, from the China University of Geosciences (Beijing) in June 2023. I graduated with the distinction of Outstanding Graduate and completed my undergraduate thesis under the supervision of [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang).
 
 ## 🛰️ Research Interests
-My research lies at **Remote Sensing Computer Vision**; **Long-Term Earth Observation**; **AI for Geoscience**:
+My research focuses on three areas: **Computer Vision for Remote Sensing**; **Long-Term Earth Observation**; **AI for Geoscience**:
    1. **Remote Sensing Computer Vision**: Develop computer-vision methods for remote sensing, including image restoration, super-resolution, and multimodal data fusion.
    2. **Long-term Earth Observation**: Reconstruct long-term remote sensing time series to characterize continuous changes in biophysical parameters, vegetation indices, and agricultural variables.
    3. **AI for Geoscience**: Apply AI methods to geoscientific problems, with a particular interest in alteration mineral mapping and mineralization prediction.
@@ -53,7 +53,7 @@ Looking ahead, I am interested in exploring robust and generalizable deep learni
 * [Dec 2025] Our paper, An Enhanced CycleGAN to Derive Temporally Continuous NDVI from Sentinel-1 SAR Images, was published online in *Remote Sensing*.
   [[See Publication](https://www.mdpi.com/2072-4292/18/1/56)]
 
-* [Sep 2025] My first paper as first author, Alteration Mineral Information Extraction Based on Image Super-Resolution Technology, was published online in *International Journal of Applied Earth Observation and Geoinformation*.
+* [Sep 2025] My first first-author paper, Alteration Mineral Information Extraction Based on Image Super-Resolution Technology, was published online in *International Journal of Applied Earth Observation and Geoinformation*.
   [[See Publication](https://www.sciencedirect.com/science/article/pii/S1569843225005199)]
 
 * [Aug 2025] Presented Time-Scale Extension Algorithm of MUSES LAI Products Using Image Super-Resolution at *IGARSS 2025* in Brisbane, Australia.  
