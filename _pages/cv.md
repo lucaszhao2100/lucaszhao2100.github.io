@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-You can view the latest version of my academic CV below.  
-*Last updated: Oct. 15, 2026.*
+You can download my academic CV below.
 
-[📄 View CV](/file/ChunyuZhao-CV-2026.pdf)
+- [📄 English CV](/file/ChunyuZhao-CV-2027.pdf)
+- [📄 中文简历](/file/ChunyuZhao-CV-2027-CN.pdf)
+
+*Last updated: October 22, 2026.*
