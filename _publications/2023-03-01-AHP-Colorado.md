@@ -1,10 +1,10 @@
 ---
-title: "Application of the Analytic Hierarchy Process to the Optimal Allocation of Colorado River Water Resources under Drought Conditions"
+title: "Application of Analytic Hierarchy Process in Optimal Allocation of Colorado River under Drought Background"
 collection: publications
 type: journal
 date: 2023-03-14
 paperurl: "https://sxsn.cbpt.cnki.net/portal/journal/portal/client/paper/d03d6067745465468b787fb18cc88055"
-citation: "<b>Zhao, C.</b>, Liu, Y.*, & Zhang, X. (2023). Application of the Analytic Hierarchy Process to the Optimal Allocation of Colorado River Water Resources under Drought Conditions. <i>Shaanxi Water Resources</i>, 2023(3), 26–29."
+citation: "<b>Zhao, C.</b>, Liu, Y.*, & Zhang, X. (2023). Application of Analytic Hierarchy Process in Optimal Allocation of Colorado River under Drought Background. <i>Shaanxi Water Resources</i>, 2023(3), 26–29."
 ---
 
 <div style="margin-top: 20px;">
