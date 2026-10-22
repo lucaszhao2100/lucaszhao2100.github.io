@@ -33,7 +33,7 @@ I received my M.Eng. in Remote Sensing Science and Technology from Beijing Norma
 I obtained my B.Eng. in Resources Prospecting Engineering, with a specialization in solid mineral exploration, from the China University of Geosciences (Beijing) in June 2023. I graduated with the distinction of Outstanding Graduate and completed my undergraduate thesis under the supervision of [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang).
 
 ## 🛰️ Research Interests
-My research focuses on three areas: **Computer Vision for Remote Sensing**; **Long-Term Earth Observation**; **AI for Geoscience**:
+My research focuses on three areas:
    1. **Computer Vision for Remote Sensing**: Develop computer-vision methods for remote sensing, including image restoration, super-resolution, and multimodal data fusion.
    2. **Long-term Earth Observation**: Reconstruct long-term remote sensing time series to characterize continuous changes in biophysical parameters, vegetation indices, and agricultural variables.
    3. **AI for Geoscience**: Apply AI methods to geoscientific problems, with a particular interest in alteration mineral mapping and mineralization prediction.
