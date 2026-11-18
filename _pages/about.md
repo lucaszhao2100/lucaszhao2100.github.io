@@ -32,18 +32,15 @@ I received my M.Eng. in Remote Sensing Science and Technology from Beijing Norma
 
 I obtained my B.Eng. in Resources Prospecting Engineering, with a specialization in solid mineral exploration, from the China University of Geosciences (Beijing) in June 2023. I graduated with the distinction of Outstanding Graduate and completed my undergraduate thesis under the supervision of [Prof. Gongwen Wang](https://www.researchgate.net/profile/Gongwen-Wang).
 
-## 🛰️ Research Interests
-My research focuses on three areas:
-   1. **Computer Vision for Remote Sensing**: Develop computer-vision methods for remote sensing, including image restoration, super-resolution, and multimodal data fusion.
-   2. **Long-term Earth Observation**: Reconstruct long-term remote sensing time series to characterize continuous changes in biophysical parameters, vegetation indices, and agricultural variables.
-   3. **AI for Geoscience**: Apply AI methods to geoscientific problems, with a particular interest in alteration mineral mapping and mineralization prediction.
-
-Looking ahead, I am interested in exploring robust and generalizable deep learning methods that incorporate physical constraints for long-term and multimodal Earth observation.
-
 ## 🌟 Research Highlights
-   1. **Remote Sensing Super-Resolution for Mineral Mapping** — Developed deep learning-based image super-resolution methods for remote sensing image restoration and alteration mineral mapping, resulting in a first-author publication in *International Journal of Applied Earth Observation and Geoinformation*.
-   2. **Spatiotemporal Reconstruction of Vegetation Parameters** — Developed spatial downscaling and temporal extension approaches for long-term satellite-derived LAI products, with related work presented at *IGARSS 2025*.
-   3. **Long-Term Wetland Ecosystem Monitoring** — Combined Landsat time series, deep learning, and field observations to map annual dynamics of aquatic macrophytes in Baiyangdian Wetland from 2000 to 2024, with a first-author manuscript under review.
+
+  1. **Global Agricultural System Mapping** — Developing spatially and temporally consistent global agricultural datasets for 1990–2025 from multi-source Earth observation data, with a focus on long-term changes in cropland use, agricultural management, and productivity.
+
+  2. **Long-term LAI Reconstruction** — Developed deep-learning approaches for spatial downscaling and temporal extension of satellite-derived LAI products, incorporating lagged meteorological information.
+
+  3. **Cross-band Super-Resolution for Mineral Mapping** — Developed a deep-learning method for cross-band image super-resolution to support alteration mineral information extraction; published as first author in *International Journal of Applied Earth Observation and Geoinformation*.
+
+  4. **Long-term Wetland Ecosystem Monitoring** — Combined Landsat time series, deep learning, and field observations to map annual aquatic-macrophyte dynamics in Baiyangdian Wetland from 2000 to 2024; first-author manuscript submitted.
 
 ## 🔥 News
 * 📢📢 **[Jul 2026]** 📢📢 **Joined the research group of Dr. Jing Cheng at the College of Environmental Sciences and Engineering, Peking University, as a Research Assistant.**
